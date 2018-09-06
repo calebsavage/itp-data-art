@@ -25,7 +25,7 @@ I ended up with the following:
 | Sweden                                                | 752         | 46335    | 3628          |
 etc, etc, etc
 
-###First Roadblock
+### First Roadblock
 Bringing multiple data sources into D3 is more complicated than I thought it would be. It's definitely a different programming paradigm than I'm used to (coming from a world of jQuery, SQL and PHP). I determined that the easiest way would be to paste my data (in JSON form) directly into my JS. I converted it from my Excel file using one of the many online tools to do this. 
 
 In order to link the first data source (World map SVG/JSON indexed by country code) with the second data source (my spreadhseet which has country codes and estimates), I put my logic in the Fill function (which was part of the example code). This function loops through all of the countries on the map. On each iteration, I used the JS Array.find() function to look through the data and see if the country code matched. 
@@ -43,6 +43,7 @@ return color(fraction);
 ```
 
 Honestly I don't totally understand how this works within D3's declarative paradigm, but I was very suprised when it "just worked" when I pasted in a snippet I found in the docs.
-[heat map](heatmap.png)
+
+![heat map](heatmap.png)
 
 
