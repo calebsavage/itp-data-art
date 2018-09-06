@@ -50,6 +50,10 @@ Honestly I don't totally understand how this works within D3's declarative parad
 ## Another world map visualization: Non-Contigous Cartogram
 Starting point: https://bl.ocks.org/mbostock/4055908
 
+After a bit of playing around with porting the example code for a U.S. map to the world map, I made some progress
+
+![non contiguous cartogram progress](progress.png "Some Progress")
+
 
 
 
