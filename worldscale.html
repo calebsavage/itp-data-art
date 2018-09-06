@@ -1088,7 +1088,43 @@
                 return "translate(" + x + "," + y + ")"
                 + "scale(" + Math.sqrt(fraction * 5 || 0) + ")"
                 + "translate(" + -x + "," + -y + ")";
-            });
+            })
+            .style("fill", function(d, n)
+            {
+
+                //console.log(countries[n]);
+                    var match = theData.find(function(element){
+                        //we are going to loop through the array of objects containing the immigration numbers, country names, and ISO codes
+
+
+                        if(element.countrycode == countries[n].id){
+                            console.log("EID" + element.countrycode + "CID " + countries[n].id);
+                            console.log(countries[n]);
+                            return true;
+                        }else{
+                            return false;
+                        }
+
+                        //if this country object's id matches the country we are drawing, return true and color element
+                    });
+                    console.log(match);
+
+                    var fraction;
+
+                    if(match){
+
+                        fraction = (parseInt(match.estimate) / total) * 100;
+                        console.log(fraction);
+                        foo += fraction;
+                    }else{
+                        fraction = 0;
+                    }
+
+
+            return color(fraction);
+            }
+            );
+
 
 
 

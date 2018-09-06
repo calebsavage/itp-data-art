@@ -54,6 +54,8 @@ After a bit of playing around with porting the example code for a U.S. map to th
 
 ![non contiguous cartogram progress](progress.png "Some Progress")
 
+![non contiguous cartogram plus heatmap](together.png "Putting it together")
+
 
 
 
