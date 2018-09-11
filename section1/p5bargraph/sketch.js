@@ -15,9 +15,15 @@ function setup() {
   // put setup code here
   // load static data set here
   loadJSON('data.json', callback);
-	createCanvas(2000,8000);
-	background(0);
-	
+	createCanvas(800,4000);
+	background(255);
+  
+  fill(0);
+  textAlign(LEFT);
+  textSize(24);
+  text("US Immigrant Populations (with margin of error indicated)",50,20);
+  textSize(12);
+	textAlign(LEFT);
 }
 
 function callback(data) {
@@ -28,11 +34,22 @@ function callback(data) {
 	
   //if the data is loaded, start working with it
   if (populations) {
-		
+		populations.sort(function(a,b){
+      //sort the data from greatest estimate to least
+      
+      a.estimate = parseInt(a.estimate);
+      b.estimate = parseInt(b.estimate);
+      //sort it
+    	if(a.estimate > b.estimate){return -1;}
+      else if(a.estimate == b.estimate){return 0;}
+      else{return 1;}
+    });
 
 		
     for (let i = 0; i < populations.length; i++) {
+      //console.log(populations);
       //console.log(populations[i]);
+      
     
       let name = populations[i].country;
       let population = populations[i].estimate;
@@ -43,7 +60,7 @@ function callback(data) {
       let errorFraction =  populations[i].marginOfError / population;
       //console.log(errorFraction);
       
-			let y = girth * i * 1.3;
+			let y = girth * i * 1.3+25;
 			
 			
       //console.log(name, population, error);
@@ -60,16 +77,15 @@ function callback(data) {
 			rect(0,y,populations[i].estimate/1000,girth);
 			
 		
-			fill(200);
-			let minusErr = populations[i].estimate/1000;
-			minusErr -= populations[i].marginOfError/1000;
-		
-			rect(0,y,minusErr,girth);
+			fill(150);
+			let minusErr = (populations[i].estimate/1000) - (populations[i].marginOfError/1000);
+      console.log("ME:"+minusErr);
+      rect(0,y,minusErr,girth);
 			
-			fill(127,35,100)
-			let label  = populations[i].country + " - " + populations[i].estimate + " ± " +populations[i].marginOfError; 
-
-			text(label, 20, y-10);
+			fill(0)
+      //toLocaleString formats a number with commas
+			let label  = populations[i].country + " - " + parseInt(populations[i].estimate).toLocaleString() + " ± " +parseInt(populations[i].marginOfError).toLocaleString(); 
+			text(label, 50, y+15);
 			
 			
     }

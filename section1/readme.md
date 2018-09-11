@@ -1,8 +1,11 @@
 # Quick And Dirty Data Visualization
 ## Simple graphics with p5.js
 ### First intro to p5
-Although I've heard a lot about p5, I've never had the pleasure of using it before. I've done a few experiments with Processing, but mostly use jQuery for DOM maniuplation as a full stack web developer. Never really tried graphics like this. The Coding Train videos were a good quick introduction, and the docs are decent (although I wish the online editor had code completion). 
+Although I've heard a lot about p5, I've never had the pleasure of using it before.
+ I've done a few experiments with Processing, but mostly use jQuery for DOM maniuplation as a full stack web developer. Never really tried graphics like this. The Coding Train videos were a good quick introduction, and the docs are decent (although I wish the online editor had code completion). 
+
 [Link to the sketch on p5js editor](https://editor.p5js.org/caleb.savage/sketches/ryOww5VO7)
+
 Some screenshots showing progress...
 ![bar graph](bargraph1.png "First attempt bar graph")
 First Attempt
