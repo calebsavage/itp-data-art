@@ -1,4 +1,12 @@
 # Quick And Dirty Data Visualization
+## Simple graphics with p5.js
+### First intro to p5
+Although I've heard a lot about p5, I've never had the pleasure of using it before. I've done a few experiments with Processing, but mostly use jQuery for DOM maniuplation as a full stack web developer. Never really tried graphics like this. The Coding Train videos were a good quick introduction, and the docs are decent (although I wish the online editor had code completion). 
+![bar graph](bargraph1.png "First attempt bar graph")
+![heat map](bargraph2.png "Getting better")
+
+
+
 ## World map visualizations with D3.js
 ### Normalizing the data (Excel)
 Starting point: https://bl.ocks.org/mbostock/4180634
