@@ -76,6 +76,5 @@ After a bit of playing around with porting the example code for a U.S. map to th
 
 ![non contiguous cartogram plus heatmap](together.png "Putting it together")
 
-
-
+I think this type of visualization is really exciting, but obviously the implementation needs a good deal more work. I think my biggest shortcoming as a programmer is design skills (or lack therof). It's tough for me to previsualize an image in my head (which is why I've gravitated towards photography, where the image is already there and my job is to put it in a box)
 
