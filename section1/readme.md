@@ -2,10 +2,19 @@
 ## Simple graphics with p5.js
 ### First intro to p5
 Although I've heard a lot about p5, I've never had the pleasure of using it before. I've done a few experiments with Processing, but mostly use jQuery for DOM maniuplation as a full stack web developer. Never really tried graphics like this. The Coding Train videos were a good quick introduction, and the docs are decent (although I wish the online editor had code completion). 
+[Link to the sketch on p5js editor](https://editor.p5js.org/caleb.savage/sketches/ryOww5VO7)
+Some screenshots showing progress...
 ![bar graph](bargraph1.png "First attempt bar graph")
-![heat map](bargraph2.png "Getting better")
+First Attempt
+![bar graph](bargraph2.png "Getting better")
+Getting Better
+![bar graph](bargraph3.png "Final-ish")
 
+I would have liked to spend some more time refining this and adding some interactivity. Obviously a simple bar graph is pretty boring.
 
+My original idea was to visualize how many spaces (for example, train cars, buses, football stadiums, etc) would be filled up by each immigrant population. I'm still curious about what this might look like, but bumped in to some constraints on my time and energy. 
+
+Regardless, this was a fun intro to p5 and opened up a lot of possibilites for me.
 
 ## World map visualizations with D3.js
 ### Normalizing the data (Excel)
