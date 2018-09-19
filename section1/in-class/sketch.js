@@ -26,15 +26,19 @@ Promise.all([
 		console.log(usaData);
 		console.log('simpleData');
 		console.log(nycData);
+
+		const processedNyc = processData(nycData, true);
+		const processedUsa = processData(usaData, false);
+
 	} )
 
 
 }
 
-function processData(data){
+function processData(data, isNycData){
 	const mapped = data.map(d =>{
 		return {
-			'country': d['country/region'],
+			'country': isNycData ? d['country/region'] : d['country'], //ternary if else operator-- condition ? true actipon : false action
 			'population': +d['estimate'].replace(/,/g,""),
 			'marginOfError': +d.marginOfError.replace(/,/g,'').slice(3)
 		}
