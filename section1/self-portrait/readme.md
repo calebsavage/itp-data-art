@@ -18,6 +18,11 @@ It ended up being rather tricky, mostly because I needed to spend some time refa
 I've used Imagemagick before for utilitarian resizing and conversion purposes in web apps, and I knew it has an extremely powerful command line interface. 
 
 The code that did most of the heavy lifting is in the colors.sh file. It's no masterpiece and was glued together from Stackoverflow and reddit topics. It averages the colors in the image by scaling it to a 1x1px .gif file
+After much trial and error, the key command was:
+
+```
+convert $image -scale 1x1\! -verbose
+```
 
 I manually ran it once for each year of images in my archive, resulting in thousands and thousands of single pixel image files. I then needed to concatenate them into one long image file 1 pixel X 4,480 pixels, which I could then stretch into a beautiful represenation of lines.
 
