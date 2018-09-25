@@ -13,7 +13,7 @@ I was hoping to include a larger sample from my Lightroom catalog, which has wel
 The easiest way to reduce the overhead needed was to limit it to .JPG files only (excluding the tens of thousands of .TIFF and camera raw files, which tend to be much larger)
 
 
-It ended up being rather tricky, mostly because I needed to spend some time refamiliarixzing myself with bash scripting. I am very comfortable with the command line but prefer other languages when doiung scripting.
+It ended up being rather tricky, mostly because I needed to spend some time refamiliarizing myself with bash scripting. I am very comfortable with the command line but prefer other languages (mostly PHP.... i know....) for scripting.
 
 I've used Imagemagick before for utilitarian resizing and conversion purposes in web apps, and I knew it has an extremely powerful command line interface. 
 
