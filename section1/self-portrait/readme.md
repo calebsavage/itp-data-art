@@ -3,7 +3,8 @@
 A representation of the average color of 4,480 photos I have taken. 
 
 ## Inspiration
-[The Colors Of Motion](https://thecolorsofmotion.com/) makes beautiful posters showing the average color of each frame in a movie. It's quite beautiful, and I wanted to try applying the same technique to my extensive catalog of still photographs to gain some insight on how my palete has changed over time.
+[The Colors Of Motion](https://thecolorsofmotion.com/) makes beautiful posters showing the average color of each frame in a movie. It's striking in its simplicity, and I wanted to try applying the same technique to my extensive catalog of still photographs to gain some insight on how my palete has changed over time.
+
 ![blade runner](https://raw.githubusercontent.com/calebsavage/itp-data-art/master/section1/self-portrait/bladerunner.png)
 
 ## Technical Limitations
@@ -30,3 +31,5 @@ I then opened the file in Photoshop and stretched it with the Image Size tool. I
 
 ## Next Steps
 I'mr eally excited by the potential to use ImageMagick for image data analysis and visual representation. I have a lot to learn about its syntax (and the finer points of bash scripting) but I hope to continue with some of these tools and integrate them with other methods. 
+
+I'd like to bring in some other data sources to visually indicate what was going on in my life, where I was, and what I was shooting for different times in the graphic and add some animation and interactivity. 
