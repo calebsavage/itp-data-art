@@ -1,4 +1,4 @@
-!(render.png)
+!(https://raw.githubusercontent.com/calebsavage/itp-data-art/master/section1/self-portrait/render.png)
 A representation of the average color of 4,480 photos I have taken
 
 I've seen some cool work like this with movie posters, and wanted to figure it out myself. 
