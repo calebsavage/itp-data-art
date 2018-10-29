@@ -321,8 +321,10 @@ This is a project by <a href='http://calebcalebcaleb.com'>Caleb Savage</a> for a
 RiTa.js and markov chains are used to generate semi-nonsense after being fed a large dataset of questions and answers circa 2006.
 <br><br>
 Select a category below to see a generative Q&A based on text from that category.
-<br><br>
+<br><br><a href="https://github.com/calebsavage/itp-data-art/tree/master/section2">
 More info on Github
+
+</a>
 </div>
             <h2 class="header">Categories</h2>
             <div id="categories">
@@ -536,19 +538,14 @@ More info on Github
 <div class="dotted-line"></div>
     <div class="spacer" style="height:10px;"></div>
       	<p class="disclosure">
-        Yoohoo! does not evaluate or guarantee the accuracy of any Yoohoo! Answers content. <a href="https://web.archive.org/web/20060207103517/http://answers.yahoo.com:80/info/disclaimer">Click here</a> for the Full Disclaimer.
+        This is not Yahoo Answers, this is Yoohoo Answers.
     </p>
     <p class="disclosure">
-        Help us improve Yoohoo! Answers.
-        <a class="more-subtle" href="https://web.archive.org/web/20060207103517/http://add.yahoo.com/fast/help/us/answers/cgi_feedback">Tell us what you think</a>
+        "You can tell the character of a man by the way he eats his jelly beans" - Ronald Reagan
     </p>
     <p>
         <small>
-            Copyright &copy; 2006            Yoohoo! Inc. All Rights Reserved.<br/>
-            <a class="more-subtle" href="https://web.archive.org/web/20060207103517/http://www.yahoo.com/r/cy">Copyright/IP Policy</a> -
-            <a class="more-subtle" href="https://web.archive.org/web/20060207103517/http://privacy.yahoo.com/privacy/us/">Privacy Policy </a> - 
-            <a class="more-subtle" href="https://web.archive.org/web/20060207103517/http://docs.yahoo.com/info/terms/">Terms of Service </a> - 
-            <a class="more-subtle" href="https://web.archive.org/web/20060207103517/http://answers.yahoo.com:80/info/community_guidelines.php">Community Guidelines</a>
+
         </small>
     </p>
 </div>
