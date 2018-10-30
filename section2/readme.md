@@ -3,7 +3,7 @@
 ## [View Project](http://calebcalebcaleb.com/yoohoo)
 
 
-![screenshot](https://github.com/calebsavage/itp-data-art/raw/master/section2/screenshot.jpg)
+![screenshot](https://github.com/calebsavage/itp-data-art/raw/master/section2/screenshot.jpg | width=500)
 
 ## Why?
 Yahoo Answers is a great place to go if you want to feel smart. When I was 13, I got banned from Yahoo Answers for telling people they should just Google their stupid questions. It still holds a special place in my heart, but also I hate it. It truly is a window into the collective consciousness of netizens (remember when that was the buzzword du jour!?) worldwidw. It's totally fascinating, frequently sad, and invariably confusing to see the insane (and inane) things that people decided "Let me ask anonymous strangers on the internet about this". 
