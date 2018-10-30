@@ -136,13 +136,8 @@
 
 
     function username(){
-        if(rand() % 2 == 0){
-            return "daddysgrl4266";
-        }
-        if(rand() % 2 == 0){
-            return "theDOnald";
-        }
-        return "dickbag";
+        $usernames = array('lonelygurl15', 'thedonald', 'joetheplumber','aliG','Ken M.','alice','arlo','j1mm3y','blond_moment_998','cablekid1010','yaBoiCody','texas_dad_31','mama_t','renata','j3ffs35510ns','funnyguy8008','florenceNighe1ng@l3','l337hax0r47','newparent34');
+        return $usernames[array_rand($usernames)];
     }
 
     $category = generateCategory();
