@@ -9,4 +9,6 @@
 [Yoohoo Answers](https://github.com/calebsavage/itp-data-art/tree/master/section2)
 ## Section 3
 [Rate A State](https://github.com/calebsavage/itp-data-art/tree/master/section3/)
+## Section 4
+[Social Insecurity: What's In a Number](https://github.com/calebsavage/itp-data-art/tree/master/section4/)
 
