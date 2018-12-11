@@ -20,13 +20,63 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+								<style style="text/css">
+.scroll-up {
+ height: 1500px;	
+ overflow: hidden;
+ position: relative;
+
+ color: green;
+ font-size:7!important;
+}
+.scroll-up pre,p {
+	z-index:-10;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+/* //line-height: 10px;*/
+ text-align: center;
+ /* Starting position */
+/* -moz-transform:translateY(98%);
+ -webkit-transform:translateY(98%);	
+ transform:translateY(98%);*/
+ /* Apply animation to this element */	
+ -moz-animation: scroll-up 15s linear infinite;
+ -webkit-animation: scroll-up 15s linear infinite;
+ animation: scroll-up 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+ 0%   { -moz-transform: translateY(0%); }
+ 100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll-up {
+ 0%   { -webkit-transform: translateY(0%); }
+ 100% { -webkit-transform: translateY(-100%); }
+}
+@keyframes scroll-up {
+ 0%   { 
+ -moz-transform: translateY(0%); /* Browser bug fix */
+ -webkit-transform: translateY(0%); /* Browser bug fix */
+ transform: translateY(0%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(-100%); /* Browser bug fix */
+ -webkit-transform: translateY(-100%); /* Browser bug fix */
+ transform: translateY(-100%); 
+ }
+}
+</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
+				<section data-background-video="ssa.mp4" data-background-loop="loop">
+					<div  style="background-color: rgba(0, 0, 0, 0.7);color:white; padding: 2em;" class="fragment fade-in">
 					<h1>Social Insecurity: </h1>
-					<h2>What's In a Number?</h2>
+					<h2 class="fragment fade-in">What's In a Number?</h2>
+				</div>
 				</section>
 				<section>
 					<h1>Background</h1>
@@ -91,21 +141,1523 @@
 						<h2> Nine Magic Digits</h2>
 
 					<img data-src="ssc2.jpg">
+					<h3>Geographic Code</h3>
 					</section>
 					<section data-transition="#none">
 						<h2> Nine Magic Digits</h2>
 
 					<img data-src="ssc3.jpg">
+					<h3>Group Numbver</h3>
 					</section>
 					<section data-transition="#none">
 						<h2> Nine Magic Digits</h2>
 
 					<img data-src="ssc4.jpg">
+					<h3>Serial Number</h3>
+					</section>
+					<section>
+						<ul>
+							<li class="fragment fade-in-then-semi-out">Since 2011, number assignments have been randomized and the geographic and group numbers are no longer significant on newly-issued numbers.</li>
+							<li class="fade-in-then-semi-out fragment">There is no algorithmic way of determining the validity of a number. Other numbering schemes accomplish this with a "check digit" but the SSN scheme predates such conveniences and safeguards.</li>
+						</ul>
+						
 					</section>
 
 				</section>
+				<Section>
+					<section><h2>Cradle to Grave</h2>
+					<ul>
+						<li>Originally, a person would apply for a SSN when they began working.</li>
+						<li>Today, most parents apply for one on the same form as a birth certificate.</li>
+						<li>This immutable number sticks with a person through their entire life cycle, inscribed on nearly every official form from infancy through schooling, careers, medical and financial systems, and death.
+
+					</ul></section>
+					<section>
+						<h3>Seven Million Missing Children</h3>
+						<span class="fade-in-then-semi-out">When Congress enacted laws requiring the SSN of children claimed as dependents on tax returns, the number of dependent children reported to the IRS dropped by 7 million the next year.</span>
+						<span class="fade-in-then-semi-out">This type of identity verification and fraud reduction has become the most common use of the SSN, overshadowing its purpose only as an account number in the Social Security Administration.</span>
+					</section>
+					<section>
+						<!-- <h3>Death Master File</h3> -->
+						<!-- <span class="fade-in-then-semi-out">When a person dies, their information is entered into the Death Master File.</span>
+						<span class="fade-in-then-semi-out">One of the richest publicly available datasets, it contains information on all U.S. deaths known to the SSA.</span> -->
+
+
+<div class="scroll-up">
+<pre>001010001MUZZEY                  GRACE                          1200197504161902                   
+ 001010009SMITH                   ROGER                          0400196902041892                   
+ 001010010HAMMOND                 KENNETH                        0300197604241904                   
+ 001010011DREW                    LEON           R              V0830198706141908                   
+ 001010012CATE                    OLIVE                          0900198109211908                   
+ 001010013WHORFE                  FRANK                          0900196204061888                   
+ 001010015AMOS                    CHESTER                        0200198402161910                   
+ 001010016KUNCHO                  DIMITRI                        0300198106041910                   
+ 001010017MICHALS                 WILLIAM                        1200197011071907                   
+ 001010019BODWELL                 MINNIE                         0300198404051895                   
+ 001010020ROWELL                  ALICE                          1200196902241882                   
+ 001010021HOUCK                   ROBERTA                        0300198502241915                   
+ 001010022WOOD                    DOROTHY                        0200197611101913                   
+ 001010025GOEWEY                  PAUL                           1200197202091895                   
+ 001010026SMITH                   ERIC                           0700197706131901                   
+ 001010027TEBEAU                  GLADYS                         0300198012261906                   
+ 001010028MATOTT                  ROBERT                         0300194812011899                   
+ 001010029LUMLEY                  LUCINDA        B              V0122200104021918                   
+ 001010030CORBETT                 ABIGAIL                        1100196811091885                   
+ 001010032GUERTIN                 MADELEINE      C              V1125199903231917                   
+ 001010033JOHNSON                 WINIFRED                       0800198104181905                   
+ 001010034HEATH                   BERTHA         N               0400199004171905                   
+ 001010035RAYMOND                 VINIE          M               0200199309221902                   
+ 001010036FITTS                   GENEVIEVE      T               0901198909031917                   
+ 001010037FOURNIER                GLADYS         C               0919199205031911                   
+ 001010038FISHER                  SYLVIA         E              V0303199910141920                   
+ 001010040DEARBORN                RITA                          V1124199004011918                   
+ 001010043OSIER                   DORIS                          1200198308281911                   
+ 001010044DUNN                    JOSEPHINE                      1200197310121894                   
+ 001010045MILLER                  DOROTHY                        0500197003211903                   
+ 001010046SUPRY                   ALBERTINE                      0200197009111898                   
+ 001010047CLOUETTE                CATHERINE      M               1121199312091913                   
+ 001010051NERBONNE                HAZEL                          1100198310061902                   
+ 001010052LECAIN                  JANE                           1200198209051906                   
+ 001010053SANDS                   MARION         A              V0108200412091908                   
+ 001010054CARLSON                 LAURENCE                       0800197705231897                   
+ 001010056DEARBORN                JOSEPH                         0800197405061914                   
+ 001010057SMITH                   BERTHA                         0300198101031899                   
+ 001010058FITZNER                 ROBERT         A               0229198806161901                   
+ 001010059HARRINGTON              IRENE                          0600198212131900                   
+ 001010060JENKINS                 GEORGE                         0800197003231905                   
+ 001010062MACKEY                  DORIS          P              V0601199803291914                   
+ 001010063PIKE                    LESLIE                         0700197809081913                   
+ 001010064BOLAND                  JOHN                           0300198112081892                   
+ 001010067BEGIN                   LEO            A               0927197507151912                   
+ 001010068MCLAREN                 HARVEY                         1200198012251891                   
+ 001010071RANCLOES                HENRY                          0100198510041904                   
+ 001010073GOULETTE                JOSEPH                         0600196612181883                   
+ 001010076RATHBORN                LEONARD        W               0213199409131898                   
+ 001010077TAYLOR                  F              E              V0703199905141913                   
+ 001010079SHERMAN                 ESTHER                         1200198112101909                   
+ 001010080KNOWLTON                DONALD                         0900197508121895                   
+ 001010081SMITH                   CLIFTON                        1200197903081891                   
+ 001010084BARRETT                 JOHN                           1000197301161888                   
+ 001010085BUFFINGTON              EARLE                          1000198004271911                   
+ 001010087BOUCHER                 NELSON         J              V0322200806241917                   
+ 001010088ALLARD                  JEANNETTE      R              V0316199701301916                   
+ 001010089CARPENTER               FANNIE                         0500198402271897                   
+ 001010090DAVIDSON                MARY                           1200197808201892                   
+ 001010091QUAIL                   MARY                           1200198701141913                   
+ 001010092MACLEOD                 JAMES                          0100197107181877                   
+ 001010093MACMILLAN               PRESTON                        0100197806251912                   
+ 001010094ROBINSON                AMY                            0600197606211888                   
+ 001010095THURSTON                LILLIAN        G              V0104199709111898                   
+ 001010099BOYCE                   DORIS          D              V0321200302101902                   
+ 001010104BAKER                   ELSIE          E               1218198910301909                   
+ 001010105CHANDLER                GRACE                          0200198512141902                   
+ 001010106GRANT                   MARGUERITE                     1100197908071905                   
+ 001010108CLEVELAND               MARY           L              V0613200402221913                   
+ 001010109HOIT                    LEONA                          0900197805191899                   
+ 001010111FLORENCE                EVELYN                         0300197907011905                   
+ 001010112SULLIVAN                OLIVE                          0300198710181909                   
+ 001010113OSIER                   FRANK                          0800196511041904                   
+ 001010115BAKER                   CLYDE                          1200197103041904                   
+ 001010116FRARY                   JOHN           A               0410199407031910                   
+ 001010118MAGEE                   HARRY                          0600197007011905                   
+ 001010119ELLIOTT                 EDWIN                          0100198003091898                   
+ 001010121JOHNSON                 EARL                           0300198105171899                   
+ 001010122PELLETIER               PAUL           A               0621198803301915                   
+ 001010123BASSETT                 ELLEN                          0300198011171900                   
+ 001010127SAUER                   GUSTAV                         0200197801271889                   
+ 001010128HALL                    CHARLES                        1200196210021875                   
+ 001010130RENNIE                  ALEXANDER                      0700198002221900                   
+ 001010134MAGENAU                 WILLIAM                       V0702200411071906                   
+ 001010135BOUTWELL                REUBEN                         0300196302141885                   
+ 001010136CARROLL                 ETHEL                          0500198408071892                   
+ 001010137VANDERHAEGEN            AGNES          S              V0830199909261908                   
+ 001010139HASTINGS                CARROLL                        0700198307011890                   
+ 001010140ROBERTS                 HELEN          C              V1230199611021903                   
+ 001010141VALLEY                  MINETTE                        0200198211161904                   
+ 001010142KNIGHT                  MARJORIE                       0200196806121899                   
+ 001010143VENNE                   LAURA                          0400197806241891                   
+ 001010144RENNIE                  MINNIE         B              V0521199908041901                   
+ 001010145HADLEY                  CHESTER                        0300196509291878                   
+ 001010146JOSEPHSON               ERNEST                         0400198006061905                   
+ 001010151DONAGHEY                A              M               1002199308251905                   
+ 001010152NOYES                   THEODORE       E              V1209199909061914                   
+ 001010154KING                    JOSEPH         A              V0322200312121911                   
+ 001010159MORRILL                 HARRY                          0200196901121880                   
+ 001010160CUSANO                  PHILLIP        D               0527199005191917                   
+ 001010163MORSE                   LOUIS                          0700198010211908                   
+ 001010164DREW                    GERALD         R               0616199108271905                   
+ 001010166THOMPSON                HARLEY                         0700197010221894                   
+ 001010167ROGERS                  CLIFFORD                       0100196710141919                   
+ 001010169ADLER                   SIDNEY                        V0322200304211913                   
+ 001010171BALDI                   JOSEPH         F              V0208200408021911                   
+ 001010172WOODCOCK                CHARLES                        0200198306291907                   
+ 001010173ROGERS                  RUSSELL                        1100198710161917                   
+ 001010174ROBERTS                 JOHN                           0600198701161909                   
+ 001010175TRENOWETH               NORMAN         E              P0216199907171917                   
+ 001010178CHAMPAGNE               BENJAMIN       J               0224198804251915                   
+ 001010180STEVENS                 GEORGE                         0600197206011897                   
+ 001010181QUINN                   EDWARD         C               1013199112061910                   
+ 001010184GARABEDIAN              GEORGE                         0400197409281914                   
+ 001010185CHAMPAGNE               PAUL           A               0320199106181916                   
+ 001010186MCALPINE                ARTHUR         F               0508199506151913                   
+ 001010187AULD                    HARRISON       M               0627198908171912                   
+ 001010191KALOOSDIAN              SARKIS                         0800197001251885                   
+ 001010193KALAJIAN                GEORGE                        V0823200312241915                   
+ 001010195APOSTAL                 HARRY                          0900196601041880                   
+ 001010196HOLDEN                  JAMES          D              V0831200406241918                   
+ 001010197SABEN                   WILLARD                        0800196903211916                   
+ 001010203GEORGE                  EVELYN                         1200198303251895                   
+ 001010204QUINN                   AGNES                          0500196801051893                   
+ 001010206HILL                    HARRY          S              V0604200310271903                   
+ 001010207PAVEGLIO                MATTHEW                       V0303200112191911                   
+ 001010208ASH                     LEONARD                        1000198304261910                   
+ 001010210CHASE                   GORDON         W              P0217200007131919                   
+ 001010211MCGAREY                 RICHARD                        0200198212091916                   
+ 001010212ROBINSON                ROLAND                         0200197306131905                   
+ 001010213BRADLEY                 JOHN           H               1230199409101897                   
+ 001010214WILCOTT                 HENRY          J              V1005199702091912                   
+ 001010216HUNNEYMEN               ETHEL                          0600196608201888                   
+ 001010217ORDWAY                  CURTIS                         0500197210301905                   
+ 001010218CHASE                   NELLIE                         1100196804091885                   
+ 001010219LOUGEE                  ROBERT         H               0922199209011912                   
+ 001010220STANLEY                 WALTER                         0100197808071901                   
+ 001010222SPIRO                   JOHN                           0300196605201902                   
+ 001010225GUILD                   FRANK                          0900196806041879                   
+ 001010226WEBBER                  EVERETT                        1000197406111910                   
+ 001010227DAVIS                   HARLAN         R              V0521199704131915                   
+ 001010228NYLEN                   DOUGLAS        P              V0531200110021916                   
+ 001010229DEROCCHI                HUGO           A               0401199602251906                   
+ 001010230HUNNEYMAN               GEORGE                         1200197506121887                   
+ 001010235LAMPRON                 EDWARD         N               0517199012301906                   
+ 001010236ROY                     ANTHONY                        0100197411201904                   
+ 001010237GUIMOND                 LEO            W               0409199601241915                   
+ 001010239RITCHIE                 HARRY                          1100197304221895                   
+ 001010240GUIMOND                 ALBERT         J              V0913199609161913                   
+ 001010243ERIAN                   JENNIE                         1000198505101903                   
+ 001010244JOSEPHSON               ARTHUR                         0200197709111908                   
+ 001010246PIPER                   HERBERT                        1200195904241894                   
+ 001010247APOSTAL                 THEMIA                         0900198312261907                   
+ 001010248FOY                     EDGAR          J               0618199406281899                   
+ 001010250BAILEY                  MELISSA        A              V0908200711171912                   
+ 001010252SWEENEY                 AGNES          E              V0329200010251902                   
+ 001010258TAYLOR                  JOSEPH                         0500196705021877                   
+ 001010262MURRAY                  LILLIAN                        0509199303231905                   
+ 001010263GILBERT                 VICTOR                         0400196905061886                   
+ 001010264STRAW                   FRANK                          0500196304281872                   
+ 001010265STRAW                   LUTHER                         0500197306111912                   
+ 001010268BACHELDER               CLARENCE                       0700196702101879                   
+ 001010269NICHOLS                 STEPHEN                        1200197912271894                   
+ 001010271ELLIOTT                 ERNEST                         0400198002121894                   
+ 001010273ANDERSON                EMIL                           0100197707301896                   
+ 001010276CRAIK                   WILLIS                         0100196903181903                   
+ 001010277SIMPSON                 JAMES          H               0817198809251907                   
+ 001010278SMALL                   ELLEN          S              V1015199707041898                   
+ 001010281PURCELL                 PEARL                          0900197510241897                   
+ 001010282MINOR                   ERNEST         L               1210199402071918                   
+ 001010286VIRGIN                  LEONARD                        1100198705181901                   
+ 001010288TUTTLE                  FREDERICK      S              V0824200307211916                   
+ 001010293DEFORGE                 FRANK                          0400197311221911                   
+ 001010294DUGAN                   LEONARD                        0423199412211916                   
+ 001010298ROBERTSON               GEORGE                         1200196910091876                   
+ 001010299LOCKWOOD                GEORGE                         1000196206151887                   
+ 001010301JOSCELYN                ROBERT                         0700197302101917                   
+ 001010302JOSCELYN                DONALD                         0900198212161915                   
+ 001010303BELL                    JAMES                          0300196912271885                   
+ 001010304THOMPSON                VICTOR                         0600197409291915                   
+ 001010305WOODS                   RAYMOND        E               0426199309241914                   
+ 001010307LAPOINTE                ROGER          A               0823199309151913                   
+ 001010308BOURQUE                 G ARMAND                      V1224200002211915                   
+ 001010309SHURTLIFF               CHARLES                        0600197804161906                   
+ 001010311WILLIS                  VIRGINIA       V              V1124199912301917                   
+ 001010312PURRINGTON              MARGARET       F              V0125200709141914                   
+ 001010315MOOREHOUSE              CLIFTON                        0500198709141905                   
+ 001010316JOHNSON                 ELMER                          1100198308181904                   
+ 001010317MCBRIDE                 MARJORIE       L              V0202200104081910                   
+ 001010318KUGELMAN                ROBERT                         0716199210311898                   
+ 001010319RINEHART                VIOLET                         0400198611201904                   
+ 001010320MUDGE                   RAYMOND        F               1119199501011917                   
+ 001010323BURNELL                 PAULINE        J              V0927199610121915                   
+ 001010325HILL                    FRANCIS        L               0716198910211911                   
+ 001010326WOLFE                   BARBARA        C               0213198808201912                   
+ 001010327GRAD                    LINDEN         E              V0320199907121913                   
+ 001010328DOSTIE                  OMER                           0100197609241887                   
+ 001010329WENTWORTH               WALTER         E               0327199606281900                   
+ 001010330MCLAUGHLIN              THOMAS                         0100197310261888                   
+ 001010331DEXTER                  DOROTHY        C               1023199305111915                   
+ 001010332KING                    PERCY                          1100197504271909                   
+ 001010333SMITH                   EDWARD         H              V1104199606131915                   
+ 001010335GINGRAS                 LEO                            0200198608031904                   
+ 001010336MAHONEY                 HENRY          E              V0401199703291910                   
+ 001010338KACHADOORIAN            KARNIG                        P0308200206161917                   
+ 001010339SIMPSON                 HAROLD         L               0225199611071910                   
+ 001010341DONOVAN                 DENNIS                         1100197802121911                   
+ 001010346SANBORN                 FRANK                          0500196901091895                   
+ 001010347DIMICK                  EVELYN         M              V0328201007131917                   
+ 001010348SALTMARSH               FRANK                          0500197401281885                   
+ 001010355CRAIGUE                 DANA           L               1030199308291915                   
+ 001010356PELREN                  HARRY                          0800196301271884                   
+ 001010357SWAIN                   ANNIE          G               0405199504151907                   
+ 001010358DAVIS                   ELIZABETH                      0500197606171906                   
+ 001010359HOWE                    MOREY                          0200198509111912                   
+ 001010361BOYDEN                  KENNETH        R               0918199303281916                   
+ 001010362OLMSTEAD                LLOYD                          1200197504011910                   
+ 001010364PERKINS                 MADELINE                       0100198408111902                   
+ 001010365COLGAN                  RITA           M               0600199105251913                   
+ 001010367ROY                     BEATRICE                       0900198101101906                   
+ 001010368STICKNEY                HELEN                          0700197507071880                   
+ 001010370MACK                    EDNA           B               1203199401231909                   
+ 001010371MCDONNELL               ALLEN                          1200194600000000                   
+ 001010372THORNTON                RANDALL                        0922198806291906                   
+ 001010373FILLMORE                MARJORIE                       0700198507061914                   
+ 001010374MILLER                  WARREN                         0600195910201907                   
+ 001010377DRESCHER                HAROLD                         1200197210161907                   
+ 001010378HOULE                   GEORGE                         0600197303101911                   
+ 001010379BOURLET                 JOHN                           0500198606281906                   
+ 001010381BAMFORD                 ALFRED                         0600197911041902                   
+ 001010383MCDONALD                RONALD                         0600196810101889                   
+ 001010384MCMANUS                 JAMES                          0400198506281909                   
+ 001010385ALLAIRE                 JOSEPH                         0500198207141904                   
+ 001010386HEBERT                  GEORGE         A               0323199205191916                   
+ 001010387BOUCHARD                LEOPOLD        N               0509199102191900                   
+ 001010389GATCHELL                EVERETT                        1000197106171904                   
+ 001010391MILLER                  MARGARET       M              V0425200701021912                   
+ 001010394KENNEDY                 ALLEN          E              V1027200401161913                   
+ 001010395GARLAND                 THOMAS         E               0516198811241910                   
+ 001010397MILLS                   MAYNARD                        0800197307051907                   
+ 001010398PEABODY                 FRANCIS        A              V1019200101101910                   
+ 001010399NOYES                   CARROLL                        0700196807021895                   
+ 001010400MOREY                   CLARENCE                       0100196708111891                   
+ 001010401NEDEAU                  MILTON                         0600197310141903                   
+ 001010402LECLAIR                 LAWRENCE                       0800198109201913                   
+ 001010403COOK                    GRACE                          0600197604221886                   
+ 001010404NEWTON                  ERNEST                         0400197505101898                   
+ 001010405LAVALLEY                CHARLES                        0500198307141909                   
+ 001010406HOWARD                  LAWRENCE                       0700198507281918                   
+ 001010407HUCKINS                 ASA            A               0126198905021909                   
+ 001010408ROBERT                  FRANK                          0326198805181902                   
+ 001010411OCONNOR                 WILLIAM        F              V1126199908091918                   
+ 001010412HANCHETT                DORIS          B              V1231199901031909                   
+ 001010414DAVIDSON                HARRY                          0700197110011885                   
+ 001010415DOWNING                 ERNEST                         0900197302241910                   
+ 001010416DOWNING                 ANNIE                          0800196807041885                   
+ 001010417BARNES                  SADIE                          1100198007221897                   
+ 001010418CHENEY                  GERTRUDE                       0100197701241885                   
+ 001010420DURGIN                  EDWARD                         0200198601101909                   
+ 001010424LABRIE                  ALFRED                         0800198402231905                   
+ 001010426DURGIN                  VERNIA         A               0522199408091912                   
+ 001010427ALCORN                  ARTHUR                         1200195801111901                   
+ 001010428HALL                    ROSE           D               0626199409041901                   
+ 001010430SAJ                     ANTHONY                        0300197005231888                   
+ 001010432JENKINS                 RAYMOND        L               0301199009051904                   
+ 001010433JENKINS                 KENNETH        M               0529199211091905                   
+ 001010434BARTISAVITCH            JOHN                          V0109200408101915                   
+ 001010436DARBY                   ROSAMOND       H               0100199210071909                   
+ 001010437BROWN                   ALBION                         1000196408261914                   
+ 001010438VEAYO                   DORIS          H              V0326200005111915                   
+ 001010439GAMSBY                  RICHARD        G              V1229200308171910                   
+ 001010441HALL                    EDGAR                          0500196809091883                   
+ 001010442CURTIS                  IDABELLE                       0600197709151912                   
+ 001010443KNIGHT                  HORACE                         1000197209091889                   
+ 001010444SMITH                   HENRY                          1000196802091896                   
+ 001010445MITCHELL                HERMAN                         0100197102251897                   
+ 001010446CHASE                   HAROLD                         0500196001011907                   
+ 001010447GRAY                    RUBY                           0500197710171894                   
+ 001010448DOUCETTE                ALEXC                          0900196711111896                   
+ 001010451SHAW                    FREDERIC                       1200197510281889                   
+ 001010452WOOLNER                 NORA                           1200197411211896                   
+ 001010453LABONTE                 EDWARD                         0400197001191905                   
+ 001010454HOYT                    NELLIE                         0700197601191895                   
+ 001010455SULLIVAN                ALICE                          0700198605221914                   
+ 001010456LYNCH                   JOSEPH                         0200197507221906                   
+ 001010457WADLEIGH                MARION         D               1000199205131914                   
+ 001010459WING                    WALTER                         0600198410271919                   
+ 001010460LECLAIR                 FRANCES        G               0919199003141916                   
+ 001010461MARTIN                  EDA                            0900198208171902                   
+ 001010462HAMILTON                ELIZABETH                      1000197301271909                   
+ 001010463FARR                    GEORGE         K               0101198801221903                   
+ 001010464COREY                   BEULAH         F               0305199606111907                   
+ 001010465ALLEN                   LABON                          0900197611231899                   
+ 001010467BILODEAU                PHILIAS                        0400197609091910                   
+ 001010468COREY                   ERRINGTON                      0400196407231909                   
+ 001010469CONEY                   VERNA                          0200198101041915                   
+ 001010470GRANGER                 MILDRED        M              V0210199902221912                   
+ 001010472GUYER                   JULIA                          0500196601271897                   
+ 001010473MOORE                   FRANK          E               0907199202011914                   
+ 001010476TOWNE                   PRESTON                        0800197611031901                   
+ 001010478HARLAN                  ESTHER         W              V0112201311021915                   
+ 001010479HAYES                   ALFRED         E              V0116198812091905                   
+ 001010480DUBRISKE                LEON                           1000198703021913                   
+ 001010482LUCE                    HARRY                          0700196908021895                   
+ 001010483BERTHIAUME              HARVEY                         1000198404021908                   
+ 001010484FISHER                  CARL           A              V0208200410121914                   
+ 001010485BUFFUM                  EVELYN                         0500198211151908                   
+ 001010486GOODRIDGE               HOMER                          1100196812251908                   
+ 001010488FELCH                   ROBERT                         0200198012081912                   
+ 001010489AUSTIN                  LOUIS          M               0908199211251911                   
+ 001010491HALEY                   WALTER                         0500197602101883                   
+ 001010493FISKE                   CARL                           1000198203051905                   
+ 001010498VACHON                  WALTER         J              V0907199712111911                   
+ 001010505EDWARDS                 ARTHUR                         0900197112221886                   
+ 001010506LECLAIR                 HENRY                          1200197104071906                   
+ 001010507CHAMBERS                RUFUS                          1000196510221880                   
+ 001010508LYNCH                   BELLE                          0900196902171888                   
+ 001010509FITZGERALD              JOHN                           0300197706101901                   
+ 001010510LAWRENCE                ALBERT                         0200197702281895                   
+ 001010511TANGUAY                 JOSEPH                         0900196112001892                   
+ 001010512DAUPHIN                 JOSEPH                         0500197810241900                   
+ 001010514GARNEAU                 PHILIP                         0100197102101897                   
+ 001010517WATERMAN                EARL                           0300198603031902                   
+ 001010519GRAHAM                  GEORGE                         1100196402151888                   
+ 001010522THORP                   THOMAS                         0500197901051895                   
+ 001010527WILSON                  ALBERT                         0200198003041912                   
+ 001010528NOYES                   WARREN                         0900198502111903                   
+ 001010529MAROIS                  ROBERT         A               0530199302031903                   
+ 001010530HAMLIN                  HOMER                          1200197112081892                   
+ 001010535DUBE                    LOUIS          W               1129199303151915                   
+ 001010536JOUDREY                 ALTON          V               0805199510011907                   
+ 001010537DIMICK                  FREDRICK       W               0314199305241900                   
+ 001010539POWELL                  DORIS          M              V0627201105021913                   
+ 001010541BAIRD                   ALBERT                         0700198503091917                   
+ 001010542FOSTER                  DONALD                         0500197009301893                   
+ 001010543CHURCH                  ANDREW                         0200198412221909                   
+ 001010544MARTEL                  BERNARD                        0100197110091913                   
+ 001010545WOOD                    BEVERLY        F               0726198809081917                   
+ 001010546STONE                   ALBERT         H              V0117200507011914                   
+ 001010548FLAHERTY                THOMAS                         0500197311151904                   
+ 001010549CHARLES                 OLIVER         P               0105199403291911                   
+ 001010550ORINO                   ROMEO                          0100197008311907                   
+ 001010551DAUPHNEY                CLIFFORD                       0700198603241908                   
+ 001010553AUDLEY                  J                              0500196909111902                   
+ 001010555SCHANDLER               LOYD                           0400198002251898                   
+ 001010557HELMS                   MARGARET                       1206199405021915                   
+ 001010558GILLIS                  ALICE                          0500197003091889                   
+ 001010559VACHON                  OSCAR                          0206197101041919                   
+ 001010560THERRIEN                ALICE          M              V0113199803191912                   
+ 001010561STEWART                 RALPH          C              V0513199912301919                   
+ 001010562STEWART                 FRANCES        M               0815199407051892                   
+ 001010563REISCH                  ANNA                           0100197405171899                   
+ 001010564TOTH                    VIOLET         S              V1212200806061918                   
+ 001010565SHEPPARD                ELSIE          E              V0719200206271918                   
+ 001010568FABISIAK                LITA                          V0924200102181915                   
+ 001010569DUNTON                  BERNARD                        0700198202071918                   
+ 001010570BREDEAU                 EDGAR                          1000197708121904                   
+ 001010574VERONEAU                ANASTASIA                      1100198606161907                   
+ 001010575RUCH                    W              A               0618199012191900                   
+ 001010576PHELPS                  EMORY                          0100196308051879                   
+ 001010577BONNETTE                DONALD         T              V1122199806251913                   
+ 001010579SPALDING                ARCHIE         L              V0111199809201904                   
+ 001010581FISHER                  WARREN                         0500198311301902                   
+ 001010582CHILDS                  JOHN                           0200196901021889                   
+ 001010584HARRINGTON              CATHERINE      M               0416199405211887                   
+ 001010585MCINTOSH                JAMES                          0400196304131886                   
+ 001010588BLAIS                   ALBERT                         0200196809161886                   
+ 001010589DIRUBBO                 JOSEPH                         1100196410041890                   
+ 001010591DALEY                   ADELIA                         0400198503081916                   
+ 001010593WHITE                   BARBARA        M              V1114200301011915                   
+ 001010594CAHILL                  JOHN                           0800196406231900                   
+ 001010595HOLT                    HARLAND        H               0609199510061908                   
+ 001010596BOUTELLE                ABBY           F              V1223199802241903                   
+ 001010599ACKERMAN                ELLERY                         0400198306231897                   
+ 001010600WEEKS                   HOWARD                         0200198212181901                   
+ 001010601SMITH                   EDWARD         O               1100199308011915                   
+ 001010603CARDER                  TRUMAN                         0100197112201902                   
+ 001010604BUCKLIN                 ZELA           H              V0609199810291906                   
+ 001010605LYNDE                   ALBERT                         1000197605081897                   
+ 001010606BISSON                  JEAN                           0300198108261904                   
+ 001010607TARDIF                  ARMAND                         0200196609101914                   
+ 001010608ANDREWS                 ROY                            1000196910291916                   
+ 001010609MACDONALD               DALE                           0200197201101901                   
+ 001010610SANTAW                  HENRY                          0300197907031899                   
+ 001010613STROUT                  RALPH                          0700197702181893                   
+ 001010616NELSON                  EDWARD                         0600197502131893                   
+ 001010617ZAREMBLUK               GABRIEL                        1000197704081894                   
+ 001010618ARNOLD                  FRANK                          0200197101151906                   
+ 001010619BOSSIE                  WILFRED                        0400197312081911                   
+ 001010620BUBLIS                  MARTIN                         1200197801301894                   
+ 001010622CLARK                   MAURICE        J              V0920199611141908                   
+ 001010623CHASE                   ARTHUR                         0300197608221914                   
+ 001010626THOMPSON                GROVER                         0900198311291884                   
+ 001010627FISHER                  WALTER         I               0507199604131918                   
+ 001010633SCRIMGEOUR              GEORGE                         1100196502011889                   
+ 001010634DREW                    ANNA           H               0800198802251907                   
+ 001010635SMITH                   NINA                           0100197207221902                   
+ 001010636CARPENTER               WILLIAM                        0700197709251917                   
+ 001010637ERUNSKI                 EDWARD                         0600198203221917                   
+ 001010639HYDE                    PHILIP                         0100196801051896                   
+ 001010640RYLL                    EDMUND                        V1108200107221916                   
+ 001010642WHITNEY                 STEPHEN                        0200197501071903                   
+ 001010643NAPIERKOSKI             CHESTER                        1000197806201909                   
+ 001010644SOSNOSKI                STEVEN                         0600197707251910                   
+ 001010645SNOW                    WALTER                         0900197010041915                   
+ 001010646LAWRENCE                GEORGE         H               0109199603231908                   
+ 001010647BARONOSKI               STEPHEN        E              V0827199809021912                   
+ 001010648BAKER                   KENDALL                        0900195506031909                   
+ 001010649DOMINICK                JOSEPH         S               0518199204091912                   
+ 001010652KEMPTON                 BERTIE                         0100196801301910                   
+ 001010653THOMPSON                ELDON                          0500196707131914                   
+ 001010654PINGER                  ROGER          R              V0422199909261915                   
+ 001010655MINER                   WILLIAM                        0800197101241908                   
+ 001010657PULASKI                 JAMES          J               0300199111031907                   
+ 001010658POLASKI                 ALEXANDER                      1100198307171916                   
+ 001010660ZWOLINSKI               FRANK          C              P0428199908011916                   
+ 001010662CHERESKI                JOHN                           0500197705091917                   
+ 001010663RAU                     FRANK                          0600198305121899                   
+ 001010664ROGALSKI                ROGER          A              V1019201104221915                   
+ 001010665PATENEAUDE              ELWIN                          0400198511191910                   
+ 001010666WHIPPIE                 GEORGE                         1100197004221894                   
+ 001010667ERUNSKI                 ALEXANDER                      0100197001141910                   
+ 001010668BOBEN                   TOPHELIA                       0100196405051889                   
+ 001010669PARKER                  H              W               0927199304031914                   
+ 001010670READ                    ERNEST         A              V0519199012211910                   
+ 001010671NOSECK                  BERNARD                        0100198204101915                   
+ 001010672MONROE                  RONALD                         1000196201141916                   
+ 001010673THURSTON                HOWARD         J              V0416200502271915                   
+ 001010674STODDARD                JOHN                           0700197303081884                   
+ 001010675ROCK                    HENRY                          0119199510041917                   
+ 001010677BARONOSKI               ANTHONY                        0100197009271889                   
+ 001010678HOLTON                  CHARLES                        0300196710121897                   
+ 001010680BOYD                    OGDEN          H               1117199105091907                   
+ 001010683STRATTON                DAVID                          0506199208201916                   
+ 001010684STRATTON                WILLIAM        K               0207199604141902                   
+ 001010690MAGOON                  WALLACE        E               0802198807011900                   
+ 001010691MACLEAN                 DONALD                         0600197802141915                   
+ 001010692SEED                    DOUGLAS        A               1220199510111915                   
+ 001010693COWAN                   CHARLES                        0300197102041897                   
+ 001010694COX                     MARY                           0900197709131905                   
+ 001010695SHAMBOW                 JOHN                           0200196901191889                   
+ 001010697SMITH                   ARTHUR                         0500197310041908                   
+ 001010698BOWYER                  JOHN           S              V0627199106061909                   
+ 001010699SHAW                    BERNARD                        0700198103281908                   
+ 001010700MACASKILL               WILLIAM                        1200197801271900                   
+ 001010702BELL                    LEONORA        P               0219198906011901                   
+ 001010703CURTIS                  WALTER                         0200198301121893                   
+ 001010705RUNGE                   RICHARD        L              P0524199901051917                   
+ 001010708LANDRY                  ELEANOR                        0800198710181914                   
+ 001010709SPAULDING               MARGARET                       0500196611221886                   
+ 001010713STYLES                  WILLIAM                        0800197004041909                   
+ 001010716ROY                     LEO                            0900198208201900                   
+ 001010717JOYAL                   PETER                          1100196605081882                   
+ 001010718BROWN                   MINOTT                         0500197504171904                   
+ 001010719FENSTEMAKER             MARY           E               0200199608281909                   
+ 001010721HEBERT                  CHARLES                        0700197506051887                   
+ 001010722JUDKINS                 MAUDE                          1000196911051891                   
+ 001010727PRINCE                  IDA            J              V0123200003231905                   
+ 001010728ROUSSEAU                EDGAR                          0404199011131912                   
+ 001010729STLOUIS                 GEORGE                         1100197005031901                   
+ 001010730TWOMBLY                 CHARLES        F               0530199004121915                   
+ 001010731WELCH                   ARLINE                         1100197004231901                   
+ 001010732GILKERSON               AUDREY         L              V0830200105141914                   
+ 001010734BELCHER                 DORIS                          1100198011181904                   
+ 001010735BELCHER                 CHRISTIE                       0100196608271880                   
+ 001010737RUTLEDGE                JOHN                           1200198002161904                   
+ 001010739CARNES                  GERALD                         0300198609131911                   
+ 001010740GRANT                   MARION         A               0300199509151913                   
+ 001010741HURLIN                  WILLIAM                        0500197207101893                   
+ 001010742ROKES                   PRISCILLA                      0300198102091908                   
+ 001010743RICHARDSON              WILLIAM                        0200197710031911                   
+ 001010744THIBODEAU               LEWIS                          0300197504241894                   
+ 001010745JOHNSON                 CARROLL        M               1211199212011909                   
+ 001010746WALLACE                 EARL                           0900198004211912                   
+ 001010748JOHNSON                 HIRAM                          1100196908011881                   
+ 001010750BELL                    ARTHUR                         0600196805061883                   
+ 001010752BELL                    CHRISTINE      M               0801198806241908                   
+ 001010753MITCHELL                OVIDE                          0900195303161883                   
+ 001010755MITCHELL                DIANA                          1200197205281906                   
+ 001010756HARRINGTON              FRANCES                        0600198004141887                   
+ 001010757CLAFLIN                 TRACY                          0100198211171909                   
+ 001010758SCOTT                   CURTIS                         0300198101011909                   
+ 001010761CERNOTA                 PAUL                           0800196806181888                   
+ 001010762BLANCHARD               JAMES                          1000198107171904                   
+ 001010763CLAFLIN                 ROBERT                         1200197903161907                   
+ 001010765GIBSON                  FRED                           0700196907051895                   
+ 001010766NEWTON                  MAURICE                        0600197705031890                   
+ 001010767KNOWLES                 PHILIP                         0700197308041902                   
+ 001010768CODY                    RICHARD                        0400198507201905                   
+ 001010769BRAYMAN                 HARRY          W               0300199006141907                   
+ 001010770DICK                    JAMES                          0900197109141894                   
+ 001010771MARTIN                  GUY                            1100198107261900                   
+ 001010772POREDA                  WILLIAM        A               0713199511151902                   
+ 001010773BUDZIK                  JOHN                           0400196906211889                   
+ 001010774GOURLEY                 LAWRENCE                       1000198307211915                   
+ 001010775SANDERSON               NATHAN                         0500192508011886                   
+ 001010776PRATT                   HAROLD         F               0311199403041902                   
+ 001010777BREWER                  ORIN           A               1120199507271912                   
+ 001010779KRUSIEWSKI              ALEX                           0200196811181886                   
+ 001010781BARRETT                 HERMAN                         0800198506061910                   
+ 001010783STONE                   LAWRENCE       R               0430199001041900                   
+ 001010784DURANT                  FOREST                         0900195002051903                   
+ 001010785RAK                     EDWARD                         1000196207201888                   
+ 001010786DEAR                    RALPH                          0900198608151905                   
+ 001010788MANNING                 DONALD                         0800197011161910                   
+ 001010789HOLMES                  BERTRAM        C               0314199103101902                   
+ 001010791SMART                   HARRY                          0200197003081898                   
+ 001010792ROBB                    ROBERT                         0800196911041898                   
+ 001010796JACKSON                 CHARLES                        0700197908051893                   
+ 001010797MINERS                  JOHN                           0700196803091881                   
+ 001010799HAYES                   DONALD         R              V0224199707181913                   
+ 001010803PARKER                  ALBERT                         1200196401181880                   
+ 001010804GUYETTE                 DONALD         C              V0929200304161914                   
+ 001010805CROSS                   GEORGE                         1200196704211877                   
+ 001010806HOLTON                  DWIGHT                         0600197410041896                   
+ 001010809JENNINGS                GRANVILLE      D               0702199107011916                   
+ 001010817NAROMORE                HERBERT        E              V0127199811241908                   
+ 001010819BARRETT                 CHARLES        W              V1024199911241916                   
+ 001010821ADAMS                   GEORGE                         0900197107061892                   
+ 001010823NOSECK                  FRANK                          0400197602281886                   
+ 001010825SAMSEL                  CARL                           1000197906151917                   
+ 001010826FECTO                   EDWARD         A               1031199404161916                   
+ 001010827STOODLEY                ROLAND         V               1213199205301907                   
+ 001010828ZACK                    JOSEPH                         0403198907171909                   
+ 001010831CURTIS                  CHARLES                        0300196507281884                   
+ 001010832DAVIS                   HAROLD                         1200196804011902                   
+ 001010833CARPENTER               ERNEST                         0100196705271905                   
+ 001010836BRAGG                   DAVID                          0800197201131906                   
+ 001010838SMOFSKI                 FRANK                          0900197512021887                   
+ 001010839PLEWKA                  WALENTY                        0900196212181882                   
+ 001010841SOLASZ                  THOMAS         J              P0516199611121909                   
+ 001010842GRABOWSKI               STANLEY                        0600196403251899                   
+ 001010843WOODS                   EDWARD         P              V0804199802151917                   
+ 001010844DUBRISKE                ROGER          S              V0305200403011915                   
+ 001010845CORBETT                 WILLIAM                        0100198709051900                   
+ 001010846NOLAN                   CHARLES                        0300196503221878                   
+ 001010848HILDRETH                HARLAN                         0700197110091915                   
+ 001010849JENNINGS                BERNARD        M              V1226200501271918                   
+ 001010850MANKOWSKI               ROMAN          J              V1114200202101917                   
+ 001010851MAXWELL                 VICTOR                         0200197010081891                   
+ 001010852BARONOSKI               WILLIAM                        1000198301141911                   
+ 001010853SOLASZ                  JOHN           R              V0507200305141914                   
+ 001010856PIPER                   GEORGE         B               0604199108091905                   
+ 001010857SMITH                   CHESTER                        0200197904201890                   
+ 001010858NAROMORE                STANLEY        H               0105199006081910                   
+ 001010859WOODBURY                ERNEST         L               1212198803261910                   
+ 001010860LITTLE                  HOWARD                         0200198107051901                   
+ 001010861JONES                   WILLIAM        E              V0718199807011914                   
+ 001010862HOLLINGSWORT            WALTER                         0800196909181896                   
+ 001010863GRENDA                  CHESTER        J               0900198905191910                   
+ 001010866PETERKIN                HOWARD                         0900195809071904                   
+ 001010867WHITE                   LEON                           0900197806191904                   
+ 001010870NOLAN                   HERBERT        A              V1130200002091917                   
+ 001010872LARSON                  CARL           A              V0110200505081909                   
+ 001010874DICKINSON               W EARLE                       V0802200212241914                   
+ 001010875CLARK                   FRED                           0900197004281909                   
+ 001010878TUPECK                  STEVE                          0900197808021894                   
+ 001010880CARDINAL                ROBERT                        V0106199804061912                   
+ 001010881HUNTER                  ALMA                           0300197401231883                   
+ 001010882MASON                   PRESTON                        0500197607081918                   
+ 001010883LATHROP                 IRENE          H               1122198912051893                   
+ 001010885QUINT                   HARLAND                        0300198204151914                   
+ 001010886GRIFFIN                 FRANK                          0500197604041910                   
+ 001010888GOVE                    RALPH                          0900196511281893                   
+ 001010889FORTIER                 CYRILLE                        0800196808301879                   
+ 001010890MERRILL                 ARTHUR                         1000197505171901                   
+ 001010891ROBERTS                 ROSS                           0200198710291892                   
+ 001010892DULAC                   ANNA           M               0225198801241899                   
+ 001010893WOHLFARTH               ALBERT                         1000198211271900                   
+ 001010894CRAMPTON                BADEN                          0500198306231900                   
+ 001010895MCGLONE                 RODGER                         0200197206031888                   
+ 001010896AVERY                   FOREST         K               0509197312211913                   
+ 001010898BLANCHARD               RUTH           M              V1209200611121906                   
+ 001010899PRYOR                   THOMAS                         0900196709141891                   
+ 001010900KING                    DONALD                         1200198009171910                   
+ 001010901SMITH                   FORREST        D              V1115199702071917                   
+ 001010902YOUNG                   LILLIAN                        0300198302211909                   
+ 001010903GREENWOOD               GERARD                         0713199212301914                   
+ 001010904BROWN                   HOWARD                         0200197307131916                   
+ 001010905MORSE                   ROBERT                         1100197806081904                   
+ 001010906PORELLE                 ARTHUR                         0500196408291903                   
+ 001010907MORRELL                 EDWARD                         0100198603201914                   
+ 001010908BOYNTON                 ROBERT         P               0313198911221901                   
+ 001010911MAINE                   LUCY                           0400198603151894                   
+ 001010912GREEN                   REX                            1000197003181897                   
+ 001010915STOODLEY                GEORGE                         0300196802221896                   
+ 001010917BURNEY                  LAWRENCE                       1100197509011903                   
+ 001010918MORRIS                  JOHN                           1000198004231901                   
+ 001010919DAVENPORT               CLARENCE                       0400198212171906                   
+ 001010921CURRIER                 WALTER                         0700197308231904                   
+ 001010922DODGE                   ROBERT                         0100198407281910                   
+ 001010924WILLOU                  RALP           A              V0617200012221911                   
+ 001010925HADLEY                  STANLEY                        0400197703221910                   
+ 001010926RAND                    OLIVE          E              V0517200408141911                   
+ 001010927FLANDERS                LEVI                           0600197507291884                   
+ 001010928BROWN                   ELIZA                          0900197204141885                   
+ 001010931GARDNER                 WILLIAM        R              V1124199707171915                   
+ 001010932RADCLIFFE               BURTON                         0800197508081906                   
+ 001010933WHEELER                 PHINEAS                        0100197305111908                   
+ 001010934BEKENDORF               EVELYN         S               1100199407011912                   
+ 001010935SARGENT                 VERNAL         K              V0603199705031907                   
+ 001010936WOODMAN                 ROGER                          0800197904131898                   
+ 001010937CONNARY                 MERLIN                         0300198510071908                   
+ 001010938SMITH                   HENRY                          0800198709021908                   
+ 001010939BARTLETT                WOODROW        W              V1224199701151912                   
+ 001010940MOSHER                  HAROLD                         0700198503071911                   
+ 001010941LOCKE                   ALFRED                         0400195511281911                   
+ 001010942KNOWLES                 FRANK                          0600197703101911                   
+ 001010943KNOWLES                 JOHN                           1200198610281913                   
+ 001010944FOLLANSBEE              BERNARD        L               0616198909061910                   
+ 001010946FELCH                   EDWARD                         1100198104201915                   
+ 001010949BROWN                   CHARLES        A               0317199210011912                   
+ 001010950FOLLANSBEE              HAROLD         E               0727198901071909                   
+ 001010951FELCH                   THOMAS                         1200198301081914                   
+ 001010952PARKER                  MAY            W               0502198903021898                   
+ 001010953ROBERTS                 HELEN                          0300197901231913                   
+ 001010954HATCH                   FRANCIS                        0100196403021909                   
+ 001010955LETENDRE                ARMAND                         0300197002261910                   
+ 001010957COLL                    LIONEL                         0200197007141905                   
+ 001010958COLL                    ALPHERIE       L               0200199308251914                   
+ 001010959GRASS                   EMMY           J              P0812200501141910                   
+ 001010960GOSSELIN                ROMEO          E               1010199005021905                   
+ 001010961DUHAIME                 JULIETTE       R              V0129199810141911                   
+ 001010962BOISVERT                GUILFRED       J              V0915197507041913                   
+ 001010963DANEAULT                JULIA                          0400198405301907                   
+ 001010964LANDRY                  PETER          J               0906199308051902                   
+ 001010966CHAPDELAINE             ERNEST                         1200198606191896                   
+ 001010967HUPPER                  EVELYN         V               0700199407241908                   
+ 001010969SMART                   CHARLES                        0500197402261907                   
+ 001010970SMART                   JAMES                          0900196409191882                   
+ 001010971WHITE                   HUGH                           1000197610061884                   
+ 001010973PRESBY                  RUTH           M              V0330199802211912                   
+ 001010975PARKHURST               CHARLES        A               0426198908181903                   
+ 001010976BEMIS                   WILLIAM                        0300198401061905                   
+ 001010980DUVAL                   J              A              V1001200507271918                   
+ 001010981LAMBERT                 JOSEPH         C              V0629200107021909                   
+ 001010982LAMOTHE                 ALPHE                          0500197109251902                   
+ 001010983ANSLEY                  LESTER                         0200197809121909                   
+ 001010984HILDRETH                NORMAN         C              V0114200102011914                   
+ 001010985PROULX                  EARL           W              V0304200205201913                   
+ 001010988WARD                    MABEL                          1100198308181883                   
+ 001010989BLOMBACH                GERHARD                       V1030201004071920                   
+ 001010990BERCHNER                WILLIAM                        1100198102201893                   
+ 001010991HALL                    MAX                            0500197108311896                   
+ 001010994TIPTON                  MARION         A               0810199506071917                   
+ 001010995TIPTON                  RAYMOND                        1200197206191911                   
+ 001010996PLANT                   LESLIE                         0900197010011892                   
+ 001010997POORE                   CARRIE                         0700198403071890                   
+ 001010999MUSSHAN                 HELEN                          0400198407011906                   
+ 001011000EASTMAN                 CHARLES                        0400196306011876                   
+ 001011003GEORGIA                 CHARLES                        0100197412111895                   
+ 001011005HARRINGTON              PERCY                          0200197206051903                   
+ 001011006HUDSON                  ORAN           W               1117198911191918                   
+ 001011009LABRECQUE               LEON                           0500197305111887                   
+ 001011012LADEAU                  GEORGE                         0800197806201903                   
+ 001011015MCINTYRE                JOHN                           0600196904231907                   
+ 001011016MCMORRAN                HENRY                          0700196309211888                   
+ 001011022RAMSEY                  CLYDE          R              V0305199807121911                   
+ 001011024WINKLEY                 LESTER                         0400197911121894                   
+ 001011025WIGGETT                 CLARENCE                       0800198606211903                   
+ 001011026WILBUR                  WILLIAM                        0700198012221895                   
+ 001011031GLIDDEN                 LAWSON                         1200198603031901                   
+ 001011033JOHNSON                 MARY           A              V1017200202161917                   
+ 001011034COON                    CHARLES                        0300197608271897                   
+ 001011037CLARKE                  ELLA                           0700197407171881                   
+ 001011038YOUNG                   MARIE                          0900198703211912                   
+ 001011039FLANDERS                CHARLES        M               1000199210091903                   
+ 001011041PROVENCHER              HENRY                          0100196810051892                   
+ 001011042JORDAN                  CLARENCE       C              V0806199910311917                   
+ 001011044DUCLOS                  JOSEPH                         0300198201131909                   
+ 001011045DUCLOS                  ERNEST                         0500197306041904                   
+ 001011047MILLS                   FLOYD                          0500197912281894                   
+ 001011048MILLS                   CAROLINE                       0800196712051898                   
+ 001011050VAILLANT                ALBANI                         0700198503241910                   
+ 001011051COLBY                   PERCY                          0900196510171884                   
+ 001011053KELLEY                  DONALD                         0600198306031912                   
+ 001011056DEMERS                  JOSEPH                         0200197302281893                   
+ 001011058ROBINSON                HELEN                          0500196701201894                   
+ 001011059HOMANS                  METTA                          0400197109231884                   
+ 001011060BENOIT                  EDWARD                         0800196804181889                   
+ 001011065WALES                   MARY           D              V0429201110251914                   
+ 001011067HOGLE                   WALTER                         0300195703291895                   
+ 001011069HENRY                   ARTHUR                         0400198707211900                   
+ 001011071COLBY                   IRENE          L               0400199307221902                   
+ 001011072OBRIEN                  F              J              V0828199606051912                   
+ 001011073URLWIN                  GEORGE                         0700197212151906                   
+ 001011074BENNETT                 CARLTON                        1100198504101909                   
+ 001011075KENERSON                GUY                            0700196403171889                   
+ 001011077RAUB                    MABEL                          0800196408021894                   
+ 001011078SIBLEY                  FRED                           0700196803181904                   
+ 001011081DAVENHALL               THOMAS         K               0602198907201916                   
+ 001011082MACILVAINE              GEORGE                         0100196801061882                   
+ 001011084RHINES                  HERMAN                         0100196307111879                   
+ 001011085BELANGER                WILLIAM                        0400198203241905                   
+ 001011086DAUDELIN                NORMAN         A              V0919198708281919                   
+ 001011087HATTIE                  EARL                           1000197805221910                   
+ 001011088MINER                   ELMER                          0100197703151911                   
+ 001011089MILLER                  HOMER                          1100197008311884                   
+ 001011090ADAMS                   GEORGE         L               1207199410051914                   
+ 001011092MELESKI                 FRANK                          0822198810091915                   
+ 001011094MINATT                  HARRY                          1200197309291910                   
+ 001011096FONTAINE                LAWRENCE                       1000198708201901                   
+ 001011098NELSON                  RALPH          E               0806199508241917                   
+ 001011099CHAMPNEY                RICHARD                        1200198304041916                   
+ 001011101FIELD                   ROGER          W              V1009200202021913                   
+ 001011102SNOW                    STANLEY                        0400197911211899                   
+ 001011103ZWOLINSKI               STEPHEN        H              V1217200005091907                   
+ 001011106WASIELESKI              STEVE                          0400196404121895                   
+ 001011107BARONOSKI               WALTER         F              V0414200009111916                   
+ 001011108BARONSKI                ALEXANDER      S               1008199507261914                   
+ 001011109NAPIERKOSKI             STEPHEN                        1200198508011906                   
+ 001011110THOMPSON                ROYAL                          0900198110031906                   
+ 001011112PHILLIPS                STERRY                         0800197309201895                   
+ 001011114THOMPSON                JOSEPH                         1210198907281904                   
+ 001011116CURTISS                 EDWARD                         0200198604091906                   
+ 001011117BAKER                   FRED                           0300198610271909                   
+ 001011118CABAN                   STANLEY                        1200198710101910                   
+ 001011120AVERY                   FRED                           0100198008241907                   
+ 001011121EATON                   MARJORIE       C               0100199609061910                   
+ 001011122GROF                    WILLIAM                        1200196607101890                   
+ 001011123SMITH                   HELEN          W              V0919199807311916                   
+ 001011124BUTTRICK                LLOYD                          0600197605091911                   
+ 001011125PAAKKARI                WAINO          F               0305199111021905                   
+ 001011127BIRT                    JAMES                          0500198409051895                   
+ 001011128GORHAM                  ROBERT         L               0200198802111910                   
+ 001011129MARSHALL                THOMAS                         0300196301091885                   
+ 001011130DUPUIS                  EMILE                          1100197905151906                   
+ 001011131SMITH                   ELMER                          0600197703221898                   
+ 001011134BRANSWELL               JAMES                          0200196607181878                   
+ 001011135PARENT                  WILFRED                        0100198208161902                   
+ 001011136PITMAN                  EVERETT                        0300197103201905                   
+ 001011137MCKEEN                  CHARLES                        0100197803151904                   
+ 001011138WHITCOMB                CHARLES        F               0730198811081904                   
+ 001011140JORDAN                  MILBURY        V              V0929199608061907                   
+ 001011141GOODRICH                WALTER                         0400197209101908                   
+ 001011142SEYMOUR                 ELSIE          T              V0507200005281917                   
+ 001011143BUMFORD                 WESLEY                         0100197410131912                   
+ 001011144JOHNSON                 ERNEST                         0500198105071919                   
+ 001011148TUCKER                  WILBUR                         0400195304011877                   
+ 001011149HARRINGTON              CARL                           1200197809201909                   
+ 001011150BONDAR                  VICTOR                         1100197012241917                   
+ 001011152RUSSELL                 HELEN          C               0901199211191910                   
+ 001011154ELGAR                   CECIL          B               1024199506231919                   
+ 001011155FOSTER                  FREDERICK                      0100197102041889                   
+ 001011157MATTHEWS                DONALD         C              V0819200403041918                   
+ 001011159EVANS                   MADELINE                      V0317199709111913                   
+ 001011161PHELPS                  CYRUS                          0700198706091904                   
+ 001011162THOMAS                  ROBERT         A               0511198905151917                   
+ 001011163LANDON SR               LESTER                         0500196312211884                   
+ 001011166PATTEN                  PARKE                          0500196912131901                   
+ 001011168FOX                     MARY                           0500196509241877                   
+ 001011169DONOVAN                 DANIEL                         0700197609151906                   
+ 001011170FULTON                  DENNIS                         0300197801081910                   
+ 001011172CLEVENSON               JULIUS         L              V0112200307041912                   
+ 001011173STEVENS                 DAVID          H              V0508200202081912                   
+ 001011176WILKINS                 PEARL                          0400198305201899                   
+ 001011178BLAKE                   JAMES          E               0523197304221919                   
+ 001011179JORDAN                  RURIC          W              V0508200304111917                   
+ 001011180CHASE                   ARTHUR                         0200197405091909                   
+ 001011181TOBEY                   NATALIE                        0900197911281911                   
+ 001011182HAYNES                  NETTIE         B              V0710200005071913                   
+ 001011183CURRIER                 GEORGE                         0600197108271912                   
+ 001011185MARSTON                 MARION         C               0324199012011905                   
+ 001011186WIGGETT                 FRED                           0100196307241873                   
+ 001011187COLE                    OLIVER                         1000196610311899                   
+ 001011188AYER                    CHARLES                        0900198708301915                   
+ 001011189CLAY                    SAM            B               0731199105171906                   
+ 001011190HOMER                   RUSSELL        S               1013199005291902                   
+ 001011191TESSIER                 GEORGE         E               0807198909151909                   
+ 001011192BROWN JR                HERBERT        R               0402198909261921                   
+ 001011197GARCEAU                 OSCAR                          1200196708231886                   
+ 001011198CENTER                  LESLIE                         1000198104031897                   
+ 001011200CULLINAN                WILLIAM                        0400197909151903                   
+ 001011201BARRETT                 RONALD         J              V0817199701051914                   
+ 001011206LUNDGREN                OTTO                           0700196906231901                   
+ 001011207WEEKS                   SULO                           0500197104201908                   
+ 001011209JOHNSON                 GEORGIANN                      0700197401101904                   
+ 001011210BURNS                   GRACE                          0300197708261900                   
+ 001011211PEARSO                  DORA           E               0515199608261906                   
+ 001011212DAVIS                   ARTHUR                         0500197101121892                   
+ 001011213WINN                    HARRY                          0900197510131897                   
+ 001011214SWEENEY                 MARTIN                         0800197112151904                   
+ 001011215ST CLAIR                JESSIE                         0700198602151911                   
+ 001011216PAQUETTE                AMIE                           0925199308101907                   
+ 001011218CLOUGH                  GEORGE                         0800198611141909                   
+ 001011219GADBOIS                 MAURICE                        0100198709031906                   
+ 001011220MCINTYRE                A                              0600198305161908                   
+ 001011222MONOHAN                 MARTIN                         0700197809091906                   
+ 001011223HARTFORD                HOLLIS                         0200196702131905                   
+ 001011224HOWARD                  ARMIDA                         0600197202011884                   
+ 001011228SPAULDING               WILLIAM                       V0425199012181899                   
+ 001011232TAYLOR                  ARTHUR         L               0704198912301918                   
+ 001011233ROBINSON                WILLIAM                        0600197802261908                   
+ 001011234RYAN                    ARNOLD                         0900196312261907                   
+ 001011237BURBANK                 NORRIS                         0200198407301903                   
+ 001011238SAVOY                   LEON                           1100198708181902                   
+ 001011239DACH                    SYDNEY                         0200197503111903                   
+ 001011242RAINVILLE               ALBERT                         0400197911011905                   
+ 001011243LEVESQUE                JOSEPH         P              V0722200104241914                   
+ 001011244MATHIEU                 WILLIAM                        0200197008231890                   
+ 001011245GEUPIE                  LAURENCE                       0600197408041885                   
+ 001011248CHAISSON                EDGAR          J               0106199311201912                   
+ 001011253POULIN                  ALPHONSE                       0200197108021902                   
+ 001011255LEVESQUE                PAUL                           0800196609061887                   
+ 001011257BOUTIN                  LEO                            0900198210161913                   
+ 001011260TREMBLAY                SIDNEY                         0200197104281900                   
+ 001011261ATKINS                  EDITH          W              V0630200302071914                   
+ 001011262NYGREN                  CARL                           1100197801281907                   
+ 001011263CROWLEY                 PAUL           J              V0309200007261905                   
+ 001011265BAKER                   NORMAN                         1000196803111896                   
+ 001011267DONOVAN                 FREDERICK                      0200197711111900                   
+ 001011269FROST                   FOREST                         0700196410281892                   
+ 001011270ABBOTT                  WILLIAM        C               0519199503291899                   
+ 001011271CLARK                   GLADYS         V               0720199307121897                   
+ 001011272TIERNEY                 RAMONA                         0900196511101899                   
+ 001011273PIPER                   WENDELL                        0200197202171884                   
+ 001011275MCGUIRE                 JOHN                           0100198309091891                   
+ 001011276GORHAM                  OUIDA                          0100197211241886                   
+ 001011277HALLORAN                PEARL                          0500198108281893                   
+ 001011278MCFARLAND               DONALD                         0800198109011907                   
+ 001011279TILTON                  GARDNER                        0400197605081898                   
+ 001011282DYER                    WILLIAM                        1000196412121875                   
+ 001011283WATKINS                 ARTHUR                         0200197412051893                   
+ 001011284SYMONDS                 CHARLES                        0500198008251890                   
+ 001011285BURLEIGH                EUGENE                         0700196612021894                   
+ 001011286JOHNSTON                JOHN                           0800198106111901                   
+ 001011288LITTLE                  GLENWARD                       0100197903091896                   
+ 001011289CUSHING             SR  ROBERT         J               0608199410181901                   
+ 001011290LASKEY                  ROBERT                         1100197609111911                   
+ 001011291SYMONDS                 ROY            W              V1103200009291911                   
+ 001011293BATCHELDER              RICHARD                        1000198404291913                   
+ 001011294GEARAN                  MERTON         J               1009198901181900                   
+ 001011296PETERS                  KENNETH                        1100197003011916                   
+ 001011298BRENNAN                 WILFRED        W               1115196706121885                   
+ 001011300BEERS                   ELLIS                          0600197201161884                   
+ 001011302CARLSON                 NILS                           0300197102281896                   
+ 001011304WHITE                   EVELYN                         0600198509211910                   
+ 001011307ELLIS                   OMER                           0900197309241907                   
+ 001011309TIBBETTS                REGINALD       A              V1031200206201914                   
+ 001011310MEAD                    RAYMOND        F              V0701199807071906                   
+ 001011311HADLEY                  BERTRAM        E               1017199106281902                   
+ 001011312FITTS                   GEORGE                         1000197708191904                   
+ 001011313QUIMBY                  WALDO                          0900196203151888                   
+ 001011314SMITH                   ROLFE                          0700196711081908                   
+ 001011315LABRIE                  ALBERT         J               0516199408131908                   
+ 001011317LABRIE                  WILLIAM                        1200196211251874                   
+ 001011320MCCARTHY                DOROTHY        M               0300199512011904                   
+ 001011321ALBERT                  RICHARD                        0600196401291882                   
+ 001011323DOBOSZ                  JOHN                           1000198410081913                   
+ 001011324DORVAL                  CONRAD         A              V0924199711231895                   
+ 001011327EMERSON                 GEORGE                         0900197504081892                   
+ 001011328GAGNE                   EMILE                          0600196303281894                   
+ 001011330GIRARD                  MICHEL                         1100197302261894                   
+ 001011333PETRACH                 JOHN                           0227199010021921                   
+ 001011335PIWONSKI                FRANK                          0500198301301896                   
+ 001011339CHARLEBOIS              ERNEST                         0300198103151897                   
+ 001011340KROPP                   NATHAN                         0200195900000000                   
+ 001011341WILKINSON               MYRTIE         G              V1128200603151908                   
+ 001011342REEVES                  ALVAH          W               1130198804131904                   
+ 001011343KIMBALL                 KENNETH        C               0108199605281912                   
+ 001011346LALIBERTE               PETER          J               0713198904031904                   
+ 001011348ROWELL                  VERNA                          0100198504281912                   
+ 001011350LAPLANTE                ROMEO                          1100197007111896                   
+ 001011351MORRILL                 CLAYTON                        0300197707231903                   
+ 001011355SMITH                   ELY                            0100196907221881                   
+ 001011356SLEEPER                 BERNARD        S               0919199205061910                   
+ 001011361LEROUX                  VICTOR                         0300196702251881                   
+ 001011362DUFF                    ALBERT                         0300197902081905                   
+ 001011364MERON                   ANSELM                         0600198104211909                   
+ 001011365MAHEU                   LIONEL                         0606199508061912                   
+ 001011366PUFFENBURGER            PRESTON                        0300196407071888                   
+ 001011369FONTAINE                ANDREW                         0800197904301914                   
+ 001011372MIQUELON                ALCIDAS                        0300197302261904                   
+ 001011373LABRIE                  JOSEPH                         0500197109211912                   
+ 001011375HOWE                    LLOYD                          1200197004151897                   
+ 001011377ROBERTSON               PHILIP         A               1214199207081901                   
+ 001011378SAWYER                  LOUISE                         0400196707081891                   
+ 001011379PARKE                   RICHARD                        0100198704141910                   
+ 001011380CADY                    HAROLD                         0200196908081888                   
+ 001011382BEAN                    ROLAND                         0500198107091906                   
+ 001011383LITTLEFIELD             ELDRED                         0700197103031905                   
+ 001011385MONROE                  JOHN           E               1016199402171913                   
+ 001011387KYTE                    ALICE          M               0118199411161903                   
+ 001011388JENKINS                 CAROLYN                        1200196307231874                   
+ 001011390TRUE                    HAYDEN                         0900197307251913                   
+ 001011391PARADIS                 ELMER          A               0304198907001916                   
+ 001011393LACASSE                 JOSEPH                         0500198503291907                   
+ 001011394BLODGETT                ERASTUS                        0400196504141887                   
+ 001011395LAPOINTE                LEO                            0500197302121909                   
+ 001011398BEDROSIAN               MARY                           0526199507121912                   
+ 001011399NEVES                   ANTONIO        D               0318198911191895                   
+ 001011400LEFEVRE                 LILLIAN                        0900198101011911                   
+ 001011401LASALLE                 JOSEPH                         0800198407171908                   
+ 001011402MARTIN                  EDWARD                         0900196903181918                   
+ 001011403BURGESS                 FRED                           0100197002111911                   
+ 001011404SEED                    STANLEY                        1000196903161917                   
+ 001011405MERRILL                 KENNETH        T               0412199104221910                   
+ 001011407HOYT                    JAMES                          0200197209111909                   
+ 001011408LAVOIE                  RAOUL                          1109199108101901                   
+ 001011409SEIFERT                 CHARLES                        1000197010061912                   
+ 001011410WHITCOMB                VIRGINIA                      V0709200606201916                   
+ 001011411BATAL                   JOSEPH         M               1130198905031914                   
+ 001011412WALKER                  GEORGE         R              V0914199603121915                   
+ 001011413WALKER                  RAYMOND        W               0211198902061912                   
+ 001011414WALKER                  SHELBY                         0400196009040000                   
+ 001011415WEBSTER                 RUSSELL        G               0327199308011908                   
+ 001011419KAY                     HERBERT                        0712198802081911                   
+ 001011422OYSTON                  LILLIAN                        0200196808301877                   
+ 001011424LANCE                   ABBIE                          0900197009101898                   
+ 001011425BARTLETT                G                              0100198704141909                   
+ 001011427HARVEY                  LORAN                          1100196709251892                   
+ 001011428MCPHEE                  JOHN                           0600197104031899                   
+ 001011429GRANT                   L                              1200197304101906                   
+ 001011435GRASSO                  JOSEPH                         0100197008201889                   
+ 001011437JOHNSON                 CARROLL                        0100196301081894                   
+ 001011439PIKE                    LESLIE                         0100198511301908                   
+ 001011441CROWE                   LILYAN         L              V0523199707101913                   
+ 001011443KEREAZIS                SOCRATES       W               0529199010151918                   
+ 001011445COLE                    WARREN                         0200198508021892                   
+ 001011446CUNNINGHAM              JOHN                           0500197209241906                   
+ 001011447CURRIER                 CONVERSE                       1200197001181884                   
+ 001011448CHENEY                  VERNA          I              V0918199903221917                   
+ 001011451LACROIX                 FLORA          E               0421199211221910                   
+ 001011452COCHRAN                 JULINE                         0700197111231883                   
+ 001011453HURD                    CHARLES                        1100197404151896                   
+ 001011456SMITH                   VIVIEN         D               0300198907101911                   
+ 001011457LASSILA                 ALLI                           1100198101211898                   
+ 001011458LASSILA                 ANDREW                         0500196902141891                   
+ 001011459COUTURE                 RAYMOND                        1000198608211909                   
+ 001011462LUOMALA                 FELINA                         0500196803191890                   
+</pre>
+	
+
+	<h1 class="fragment fade-in" style="">The Death Master File</h2>
+</div>
+
+					</section>
+
+					<section>
+						<ul>
+							<li class="fragment fade-in-then-out">The DMF is one of the richest publicly available datasets.</li>
+							<li class="fragment fade-in-then-out">Distributed by the National Technical Information Service, at a price of $1,825 for a single download-- which is either prohibitively expensive or a fantastic bargain, depending on who you are and why you need it</li>
+							<li class="fragment fade-in-then-out">Many gigabytes of deceased persons, listed by SSN, Name, Location, and Birth & Death Dates</li>
+							<li class="fragment fade-in-then-out">ALL CAPS! We'll talk about why later...</li>
+							<li class="fragment fade-in-then-out">Used widely for verification, banking, governmental administration, and geneological/historical research.
+						</ul>
+					</section>
+					<section>
+						
+						<ul>
+							<li class="fragment fade-in-then-semi-out">It can be a Kafkaesque nightmare for those who are incorrectly listed as deceased.</li>
+							<a href="http://cancelthesefunerals.com"><img data-src="cancelthesefunerals.png" class="fragment fade-in"></a>
+						<ul>
+							
+					</section>
+					<section>
+						<ul>
+							<li class="">Tom Alciere, former New Hampshire libertarian congressman maintains CancelTheseFunerals and a number of other.... interesting... websites. He is best remembered for his 2001 resignation...</li>
+							<img data-src="alciere_nyt.png" class="fade-in fragment">
+							
+						<ul>
+							
+					</section>
+					<section>
+						<ul>
+							<li >Despite Mr. Alciere's beliefs and presentation style might be described by some as "fringe," "conspiracy theories," or perhaps "nucking futs".</li>
+							<li class="fragment fade-in-then-semi-out">He does raise a number of valid concerns, and his internet preference has undoubtedly been a useful resource for those unfortunate enough to have been "DMF-ed" (living persons mistakenly added to the Death Master File)</li>
+							<li class="fragment fade-in-then-semi-out">Alciere maintains a list of tens of thousands of "undeads" and a forum for them to communicate.</li>
+							<li class="fragment fade-in-then-semi-out">His list of demands is, oddly enough, very reasonable...</li>
+						</ul>
+					</section>
+					<section>
+							<span>Tom Alciere's Demands</span>
+							<ul>
+							<li class="fragment fade-in-then-semi-out">The DMF’ing of living persons must be stopped. </li>
+							<li class="fragment fade-in-then-semi-out">DMF’d persons must be offered new Social Security numbers. </li>
+							<li class="fragment fade-in-then-semi-out">The use of Social Security numbers as security passwords must be stopped.[...]</li>
+							<li class=" fragment fade-in-then-semi-out">Nobody should have to fear that her ex-boyfriend will post her Social Security number on the internet, more than she fears he will post her naked picture on the internet. The number should not unlock anything. </li>
+						</ul>
+												
+						
+						
+
+					</section>
+
+					<section>
+						<h3>Critical questions for the Death Master File</h3>
+						<ul>
+							<li>Why does this critique of a government data system read as extremist to us?</li>
+							<li class="fragment fade-in-then-semi-out">How can we hold Government data systems accountable?</li>
+							<li class="fragment fade-in-then-semi-out">Who has access to this data? Who should have access to the data?</li>
+							<li class="fragment fade-in-then-semi-out">How is this data used? How should it be used?</li>
+							<li class="fragment fade-in-then-semi-out">Where does the DMF data come from? How can its accuracy be verified?</li>
+							
+						</ul>
+					</section>
+
+					</section>
+
+					<section>
+						<section data-background-video="cards.mp4" data-background-video-loop="loop" data-background-video-muted="true">
+<h1 style="background-color: rgba(255, 255, 255, 0.7);color:black">
+						What does <br>"the system" <br>look like?
+					</h1></section>
+
+						<section>
+							<h2>The Mainframe</h2>
+							<ul>
+								<li class="fragment fade-in-then-semi-out">
+								Mainframe computing is a vastly different paradigm than today's standards.
+							</li>
+							<li class="fragment fade-in-then-semi-out">Despite its "obsolescence," mainframe software technology dating back to the 1960s and 70s is still in extremely widespread use.</li>
+							<li class="fragment fade-in-then-semi-out">COBOL-- a programming language largely based on work by Admiral Grace Hopper-- originated in 1959.</li>
+
+							</ul>
+							<img data-src="gracehopper-wikimedia.jpg" width="300px">
+						</section>
+						<section>
+							<ul>
+								<li class="fragment fade-in-then-semi-out">
+								Today, the SSA maintains ~60 million lines of mainframe COBOL code.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Despite massive efforts to modernize, it will still be many years before the SSA is free of this decased-old technology.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Programmer recruitment is a challenge, and businesses and agencies reliant on ancient code must often coax programmers out of retirement
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								"If it ain't broke..."
+							</li>
+						</ul>
+						</section>
+						<section data-background-video="bridge.mp4" data-background-video-loop="loop">
+							<div style="background-color: rgba(0, 0, 0, 0.7);color:white;padding:10px;">
+							<h2>The Lifespan of a System</h2>
+							<ul>
+							<li class="fragment fade-in-then-semi-out">
+								We expect our physical infrastructure like buildings and bridges to last for centuries with regular maintenance.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Why is 50 years seemingly ancient for a data system?
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								How can good business practices be used to maintain institutional knowledge-- what if the only guy who knows how the whole thing works gets hit by a bus?
+							</li>
+						</ul>
+						</div>
+						</section>
+						<section>
+							<h2 style="z-index:1000000;">What does COBOL look like?</h2>
+							<div class="cobol scroll-up" >
+								<pre style="text-align: left;">   
+IDENTIFICATION DIVISION.
+   PROGRAM-ID. "BF-RUN".
+   DATA DIVISION.
+   WORKING-STORAGE SECTION.
+   01 STATE USAGE COMPUTATIONAL.
+       03 IN-PTR PIC 9(3) VALUE 1.
+       03 IP PIC 9(3) VALUE 1.
+       03 CYCLES PIC 9(8) VALUE 0.
+       03 OUT-PTR PIC 9(3) VALUE 1.
+       03 LOOP-DEPTH PIC 99 VALUE 0.
+       03 LOOP-WORK PIC 99 VALUE 0.
+       03 LOOP-STATE PIC 99 VALUE 0.
+           88 DONE VALUE 99.
+   01 BF-MEMORY.
+       03 BF-CELL PIC 999
+                   USAGE COMPUTATIONAL
+                   OCCURS 9999 TIMES
+                       INDEXED BY CURRENT-CELL.
+   01 CURRENT-INSTRUCTION PIC X.
+       88 BF-LEFT VALUE "<".
+       88 BF-RIGHT VALUE ">".
+       88 BF-DEC VALUE "-".
+       88 BF-INC VALUE "+".
+       88 BF-OUT VALUE ".".
+       88 BF-IN VALUE ",".
+       88 BF-BEGIN VALUE "(".
+       88 BF-END VALUE ")".
+       88 BF-ESCAPE VALUE "$".
+       88 BF-DIE VALUE "$".
+   01 I-O-CHARACTER PIC X.
+       88 ESCAPE-CHAR VALUE "$".
+   01 ASCII-CHARACTER.
+       03 CHAR-CODE PIC 999.
+       03 COBOL-STRING PIC X(6).
+           88 LSQB VALUE "LSQB".
+           88 RSQB VALUE "RSQB".
+  D01  DEBUG-DISPLAY.
+  D    03 FILLER PIC XXX VALUE "IP.".
+  D    03 DEBUG-IP PIC 9(3).
+  D    03 FILLER PIC X VALUE ";".
+  D    03 DEBUG-INSTRUCTION PIC X.
+  D    03 FILLER PIC X(5) VALUE "CELL.".
+  D    03 DEBUG-CURRENT-CELL PIC 999.
+  D    03 FILLER PIC X(4) VALUE "VAL.".
+  D    03 DEBUG-CELL PIC 999.
+  D    03 FILLER PIC X VALUE "L".
+  D    03 DEBUG-LOOP-DEPTH PIC 99.
+  D    03 FILLER PIC X VALUE "C".
+  D    03 DEBUG-CYCLES PIC 9(5).
+   LINKAGE SECTION.
+   01 BF-INPUT PIC X(999).
+   01 BF-CODE PIC X(999).
+   01 BF-OUTPUT PIC X(999).
+   01 CYCLE-LIMIT PIC 9(8).
+   PROCEDURE DIVISION USING BF-INPUT, BF-CODE,
+                            BF-OUTPUT, CYCLE-LIMIT.
+       MOVE 1 TO IN-PTR.
+       MOVE 1 TO IP.
+       MOVE 0 TO CYCLES.
+       MOVE 1 TO OUT-PTR.
+       MOVE 0 TO LOOP-DEPTH.
+       MOVE 0 TO LOOP-WORK.
+       MOVE 0 TO LOOP-STATE.
+       MOVE SPACES TO BF-OUTPUT.
+       SET CURRENT-CELL TO 1.
+       PERFORM ZERO-CELL VARYING CURRENT-CELL
+                         FROM 1 BY 1
+                         UNTIL CURRENT-CELL IS GREATER THAN 9999.
+       SET CURRENT-CELL TO 1.
+  D    MOVE 1 TO DEBUG-CURRENT-CELL.
+       PERFORM EXECUTE-INSTRUCTION
+           UNTIL CYCLES IS GREATER THAN OR EQUAL TO CYCLE-LIMIT.
+       EXIT PROGRAM.
+   HELL.
+       EXIT PROGRAM.
+   ZERO-CELL.
+       MOVE 0 TO BF-CELL(CURRENT-CELL).
+   READ-INSTRUCTION.
+       IF IP IS LESS THAN 999 THEN
+           UNSTRING BF-CODE INTO CURRENT-INSTRUCTION WITH POINTER IP
+           IF BF-ESCAPE THEN
+               UNSTRING BF-CODE DELIMITED BY "$"
+                        INTO COBOL-STRING
+                        WITH POINTER IP
+               IF COBOL-STRING IS EQUAL TO SPACES OR
+	      COBOL-STRING IS EQUAL TO "NUL" THEN
+                   MOVE "$" TO CURRENT-INSTRUCTION
+               ELSE IF LSQB THEN
+                   MOVE "(" TO CURRENT-INSTRUCTION
+               ELSE IF RSQB THEN
+                   MOVE ")" TO CURRENT-INSTRUCTION
+               ELSE
+                   MOVE SPACE TO CURRENT-INSTRUCTION
+           ELSE
+               NEXT SENTENCE
+       ELSE
+           MOVE 99 TO LOOP-STATE.
+   EXECUTE-INSTRUCTION.
+       MOVE 0 TO LOOP-STATE.
+       PERFORM READ-INSTRUCTION.
+  D    MOVE IP TO DEBUG-IP.
+  D    MOVE CURRENT-INSTRUCTION TO DEBUG-INSTRUCTION.
+  D    MOVE BF-CELL(CURRENT-CELL) TO DEBUG-CELL.
+  D    MOVE LOOP-DEPTH TO DEBUG-LOOP-DEPTH.
+  D    MOVE CYCLES TO DEBUG-CYCLES.
+  D    DISPLAY DEBUG-DISPLAY.
+       IF DONE THEN
+  D        DISPLAY "GOING TO HELL"
+           GO TO HELL.
+       IF BF-LEFT THEN
+           PERFORM DO-LEFT
+           MOVE 99 TO LOOP-STATE
+       ELSE IF BF-RIGHT AND NOT DONE THEN
+           PERFORM DO-RIGHT
+           MOVE 99 TO LOOP-STATE
+       ELSE IF BF-DEC AND NOT DONE THEN
+           PERFORM DO-DEC
+           MOVE 99 TO LOOP-STATE
+       ELSE IF BF-INC AND NOT DONE THEN
+           PERFORM DO-INC
+           MOVE 99 TO LOOP-STATE
+       ELSE IF BF-OUT AND NOT DONE THEN
+           PERFORM DO-OUT
+           MOVE 99 TO LOOP-STATE
+       ELSE IF BF-IN AND NOT DONE THEN
+           PERFORM DO-IN
+           MOVE 99 TO LOOP-STATE
+       ELSE IF BF-BEGIN AND NOT DONE THEN
+           PERFORM DO-BEGIN
+           MOVE 99 TO LOOP-STATE
+       ELSE IF BF-END AND NOT DONE THEN
+           PERFORM DO-END
+           MOVE 99 TO LOOP-STATE
+       ELSE IF BF-DIE THEN
+           GO TO HELL.
+       ADD 1 TO CYCLES.
+   DO-LEFT.
+       IF CURRENT-CELL IS GREATER THAN 1 THEN
+           SET CURRENT-CELL DOWN BY 1
+  D        SUBTRACT 1 FROM DEBUG-CURRENT-CELL
+       ELSE
+  D        MOVE 9999 TO DEBUG-CURRENT-CELL
+           SET CURRENT-CELL TO 9999.
+       MOVE 99 TO LOOP-STATE.
+   DO-RIGHT.
+       IF CURRENT-CELL IS LESS THAN 9999 THEN
+           SET CURRENT-CELL UP BY 1
+  D        ADD 1 TO DEBUG-CURRENT-CELL
+       ELSE
+  D        MOVE 1 TO DEBUG-CURRENT-CELL
+           SET CURRENT-CELL TO 1.
+       MOVE 99 TO LOOP-STATE.
+   DO-DEC.
+       IF BF-CELL(CURRENT-CELL) > 0 THEN
+           SUBTRACT 1 FROM BF-CELL(CURRENT-CELL)
+       ELSE
+           MOVE 255 TO BF-CELL(CURRENT-CELL).
+       MOVE 99 TO LOOP-STATE.
+   DO-INC.
+       IF BF-CELL(CURRENT-CELL) < 255 THEN
+           ADD 1 TO BF-CELL(CURRENT-CELL)
+       ELSE
+           MOVE 0 TO BF-CELL(CURRENT-CELL).
+       MOVE 99 TO LOOP-STATE.
+   DO-OUT.
+       IF OUT-PTR < 999 THEN
+           MOVE BF-CELL(CURRENT-CELL) TO CHAR-CODE
+           CALL "DECODE-ASCII" USING ASCII-CHARACTER
+           IF COBOL-STRING IS EQUAL TO SPACES THEN
+               ADD 1 TO OUT-PTR
+           ELSE
+               STRING COBOL-STRING,
+                      DELIMITED BY SPACES,
+                      INTO BF-OUTPUT,
+                      WITH POINTER OUT-PTR
+  D            DISPLAY "OUT", I-O-CHARACTER, BF-CELL(CURRENT-CELL)
+       ELSE
+           GO TO HELL.
+       MOVE 99 TO LOOP-STATE.
+   DO-IN.
+       UNSTRING BF-INPUT,
+                INTO I-O-CHARACTER,
+                WITH POINTER IN-PTR.
+       IF NOT ESCAPE-CHAR THEN
+           MOVE I-O-CHARACTER TO COBOL-STRING
+       ELSE IF IN-PTR < 999 THEN
+           UNSTRING BF-INPUT,
+                    INTO I-O-CHARACTER,
+                    WITH POINTER IN-PTR
+           IF ESCAPE-CHAR THEN
+               MOVE I-O-CHARACTER TO COBOL-STRING
+           ELSE IF IN-PTR < 996 THEN
+               SUBTRACT 1 FROM IN-PTR
+               UNSTRING BF-INPUT,
+                        DELIMITED BY "$",
+                        INTO COBOL-STRING,
+                        WITH POINTER IN-PTR
+           ELSE GO TO HELL
+       ELSE GO TO HELL.
+       CALL "ENCODE-ASCII" USING ASCII-CHARACTER.
+       MOVE CHAR-CODE TO BF-CELL(CURRENT-CELL).
+  D    DISPLAY "IN", I-O-CHARACTER, BF-CELL(CURRENT-CELL).
+       MOVE 99 TO LOOP-STATE.
+   DO-BEGIN.
+       IF BF-CELL(CURRENT-CELL) IS EQUAL TO 0 THEN
+           MOVE LOOP-DEPTH TO LOOP-WORK
+           ADD 1 TO LOOP-WORK
+           PERFORM FIND-END UNTIL DONE
+       ELSE
+           ADD 1 TO LOOP-DEPTH.
+       MOVE 99 TO LOOP-STATE.
+       
+    FIND-END.
+  D    DISPLAY "ENTERED FIND-END."
+       PERFORM READ-INSTRUCTION.
+       IF NOT DONE THEN
+           IF BF-BEGIN THEN
+               ADD 1 TO LOOP-WORK
+           ELSE IF BF-END THEN
+  D            DISPLAY "FOUND END."
+               SUBTRACT 1 FROM LOOP-WORK
+               IF LOOP-WORK IS EQUAL TO LOOP-DEPTH THEN
+                   MOVE 99 TO LOOP-STATE.
+  D    DISPLAY "FIND-END.", IP, ";", CURRENT-INSTRUCTION,
+  D            "LD", LOOP-DEPTH, "LW", LOOP-WORK.
+       
+   DO-END.
+       SUBTRACT 1 FROM LOOP-DEPTH.
+       IF BF-CELL(CURRENT-CELL) IS NOT EQUAL TO 0 THEN
+           MOVE LOOP-DEPTH TO LOOP-WORK
+           SUBTRACT 1 FROM IP
+           PERFORM FIND-BEGIN UNTIL DONE.
+       MOVE 99 TO LOOP-STATE.
+   FIND-BEGIN.
+  D    DISPLAY "ENTERED FIND-BEGIN."
+       PERFORM UNREAD-INSTRUCTION.
+       IF NOT DONE THEN
+           IF BF-END THEN
+               ADD 1 TO LOOP-WORK
+           ELSE IF BF-BEGIN THEN
+  D            DISPLAY "FOUND BEGIN."
+               SUBTRACT 1 FROM LOOP-WORK
+               IF LOOP-WORK IS EQUAL TO LOOP-DEPTH THEN
+                   ADD 1 TO IP
+                   MOVE 99 TO LOOP-STATE.
+  D    DISPLAY "FIND-BEGIN.", IP, ";", CURRENT-INSTRUCTION,
+  D            "LD", LOOP-DEPTH, "LW", LOOP-WORK.
+   UNREAD-INSTRUCTION.
+       UNSTRING BF-CODE INTO CURRENT-INSTRUCTION WITH POINTER IP.
+       IF BF-ESCAPE THEN
+  D        DISPLAY "PROCESSING ESCAPE"
+           SUBTRACT 2 FROM IP
+           PERFORM FIND-ESCAPE-BEGIN UNTIL DONE
+           MOVE 0 TO LOOP-STATE
+           ADD 2 TO IP
+           UNSTRING BF-CODE DELIMITED BY "$"
+                    INTO COBOL-STRING
+                    WITH POINTER IP
+  D        DISPLAY "ESCAPED CHARACTER. $", COBOL-STRING, "$"
+           SUBTRACT 2 FROM IP
+           PERFORM FIND-ESCAPE-BEGIN UNTIL DONE
+           MOVE 0 TO LOOP-STATE
+           IF COBOL-STRING IS EQUAL TO SPACES THEN
+               MOVE "$" TO CURRENT-INSTRUCTION
+           ELSE IF LSQB THEN
+               MOVE "(" TO CURRENT-INSTRUCTION
+           ELSE IF RSQB THEN
+               MOVE ")" TO CURRENT-INSTRUCTION
+           ELSE
+               MOVE SPACE TO CURRENT-INSTRUCTION
+       ELSE
+  D        DISPLAY "NOT AN ESCAPE"
+           IF IP IS GREATER THAN 2 THEN
+               SUBTRACT 2 FROM IP
+           ELSE
+               MOVE 1 TO IP
+           MOVE 99 TO LOOP-STATE.
+   FIND-ESCAPE-BEGIN.
+       UNSTRING BF-CODE INTO CURRENT-INSTRUCTION WITH POINTER IP.
+  D    DISPLAY "PROCESSING CHARACTER. ", CURRENT-INSTRUCTION.
+       IF BF-ESCAPE THEN
+           MOVE 99 TO LOOP-STATE.
+       IF IP IS GREATER THAN 2 THEN
+           SUBTRACT 2 FROM IP
+       ELSE
+           MOVE 1 TO IP
+           MOVE 99 TO LOOP-ST
+</pre>
+							</div>
+							
+						</section>
+						<section>
+							<iframe src="http://fingfx.thomsonreuters.com/gfx/rngs/USA-BANKS-COBOL/010040KH18J/index.html" width="100%" height="800px"></iframe>
+						</section>
+					</section>
+					
+
+
+
+
+
+
+
+
+
+
+
+				</Section>
+				<section>
+						<section>
+							<h1>Who Is Excluded</h1>
+						</section>
+						<section>
+							<ul>
+							<li class="fragment fade-in-then-semi-out">
+								The Undocumented
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Immigrants
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Those who choose to live off the grid, or who make an intentional choice not to participate in government data collection.  
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Those who experience other obstacles to accessing government systems, including language, disability, poverty, inprisonment, institutional opression.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Certain classes of (primarialy public) workers are excluded from the insurance aspect of the program.
+							</li>
+						</ul>
+						</section>
+					</section>
+					<section>
+						<section>
+							
+						<h1>Identity Theft</h1>
+						</section>
+						<section>
+							<ul>
+							<li class="fragment fade-in-then-semi-out">
+								In the 1930's, Woolworths sold a wallet which contained a sample Social Security Card.
+								The number printed on it was the actual SSN of a secretary at the wallet company, Ms. Hilda Witcher.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Tens of thousands of people adopted Witcher's number as their own over a period of decades. She was eventually issued a new one.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Scores of other examples of this nature are known to have occurred.
+							</li>
+
+						</ul>
+							<img data-src="walletssn2.gif"><img data-src="hilda2ssn.gif">
+						</section>
+						<section>
+							<span>From 1946-1972, cards carried a written warning that they were not to be used for identification.
+							</span>
+							<img data-src="notforid.jpg">
+						</section>
+						<section>
+								<ul>
+							<li class="fragment fade-in-then-semi-out">
+								Regardlerss of intended purpose, SSN's are widely used as unique identifiers across many data systems for government, finance, healthcare, criminal justice, and education.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								So pervasive that they cannot be easily replaced.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Often treated as a password, it's really more like a username.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Once compromised, it can generally not be replaced and gives the attacker the ability to impersonate someone with a high level of effectiveness.
+							</li>
+
+						</ul>
+						</section>
+						<section>
+								<ul>
+							<li class="fragment fade-in-then-semi-out">
+								Massive data breaches involving SSN's occur with relative frequency.
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								2015 Anthem breach: 78.8 million health insurance customer SSN's exposed
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								2017 Equifax breach: ~148 million consumers' data leaked, including SSN's
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								2012-2014 Office of Personell breach: Details of 22 million government employees stolen.
+							</li>
+
+						</ul>
+						</section>
+
+					</section>
+					<section>
+						<section>
+							<h1>Where do we go from here?</h1>
+						</section>
+						<section>
+									<ul>
+							<li class="fragment fade-in-then-semi-out">
+								Biometrics
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Blockchain
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Encryption -- public/private keys
+							</li>
+							<li class="fragment fade-in-then-semi-out">
+								Increasing privatization of data systems
+							</li>
+
+						</ul>
+						</section>
+					</section>
+
+
+				</div>
 			</div>
-		</div>
+
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
@@ -123,5 +1675,6 @@
 				]
 			});
 		</script>
+
 	</body>
 </html>
